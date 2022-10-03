@@ -10,7 +10,7 @@ headless: true
 weight: 70
 
 title: 'Recent & Upcoming Talks'
-subtitle:
+subtitle: 
 
 content:
   # Page type to display. E.g. post, event, publication...
@@ -31,11 +31,11 @@ content:
   # Page order: descending (desc) or ascending (asc) date.
   order: desc
 
-design:
+design: 
   # Choose a view for the listings:
   #   1 = List
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view: 2
+  view: 4
 ---
