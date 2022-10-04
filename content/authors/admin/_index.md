@@ -1,5 +1,6 @@
 ---
 bio: Computational statistics, Bayesian inference, machine learning
+
 education:
   courses:
   - course: PhD in Statistics
@@ -49,10 +50,10 @@ superuser: true
 title: Saifuddin Syed
 ---
 
-I am a postdoctoral assistant in computational statistics and statistical machine learning at the University of Oxford Department of Statistics, supervised by {{< staticref "https://www.stats.ox.ac.uk/~doucet/" "newtab" >}}Arnaud Doucet{{< /staticref >}}. Before this, I completed a Ph.D. in Statistics at the University of British Columbia under {{< staticref "https://www.stats.ox.ac.uk/~doucet/" "newtab" >}}Alexandre Bouchard-Côté{{< /staticref >}}. I recently joined the next generation Event Horizon Telescope ({{< staticref "https://www.ngeht.org/" "newtab" >}}ngEHT{{< /staticref >}}) collaboration to help design algorithms to tackle statistical challenges when modelling and imaging supermassive black holes.
+I am a postdoctoral assistant in computational statistics and statistical machine learning at the University of Oxford Department of Statistics, supervised by {{< staticref "https://www.stats.ox.ac.uk/~doucet/" "newtab" >}}Arnaud Doucet{{< /staticref >}}. Before this, I completed a Ph.D. in Statistics at the University of British Columbia under {{< staticref "https://www.stats.ox.ac.uk/~doucet/" "newtab" >}}Alexandre Bouchard-Côté{{< /staticref >}}. I recently joined the next generation Event Horizon Telescope ({{< staticref "https://www.ngeht.org/" "newtab" >}}ngEHT{{< /staticref >}}) collaboration to help tackle computational statistical challenges that arise when modelling and imaging supermassive black holes.
 
-My research aims to design algorithms for solving Bayesian inference problems applied to computational sciences. I am interested in developing mathematically grounded, general-purpose algorithms that can efficiently scale to modern computing resources. My work is interdisciplinary and lies at the interface between probability theory, statistical physics, machine learning, and differential geometry. 
+My research aims to design algorithms for solving Bayesian inference problems applied to computational sciences. I am interested in developing mathematically grounded, general-purpose algorithms that can efficiently scale to modern computing resources. My work is interdisciplinary and lies at the interface between probability theory, physics, machine learning, and differential geometry. 
 
 
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}}{{< staticref "uploads/resume.pdf" "newtab" >}}Curriculum Vitae{{< /staticref >}}.

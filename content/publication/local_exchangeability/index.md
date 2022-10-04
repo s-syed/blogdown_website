@@ -26,11 +26,17 @@ tags: []
 title: Local Exchangeability
 url_code: ""
 url_dataset: ""
-url_preprint: "https://arxiv.org/abs/1906.09507"
+url_preprint: ""
 url_pdf: "https://arxiv.org/pdf/1906.09507.pdf"
 url_poster: ""
 url_project: ""
 url_slides: ""
-url_source: "https://doi.org/10.48550/arXiv.1906.09507"
+url_source: ""
 url_video: ""
+
+links:
+- icon: ""
+  icon_pack: fab
+  name: Arxiv
+  url: https://arxiv.org/abs/1906.09507
 ---

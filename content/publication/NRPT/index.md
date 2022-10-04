@@ -25,12 +25,18 @@ title: "Non-reversible parallel tempering: a scalable highly parallel MCMC schem
 url_code: ""
 url_dataset: ""
 url_pdf: https://arxiv.org/pdf/1905.02939.pdf
-url_preprint: https://arxiv.org/abs/1905.02939
+url_preprint: ""
 url_poster: "uploads/PTPoster.pdf"
 url_project: ""
 url_slides: ""
 url_source: "https://doi.org/10.1111/rssb.12464"
 url_video: "https://youtu.be/9gOssrhN3EA"
+
+links:
+- icon: ""
+  icon_pack: fab
+  name: Arxiv
+  url: https://arxiv.org/abs/1905.02939
 ---
 
 

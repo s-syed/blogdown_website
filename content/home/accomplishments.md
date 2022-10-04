@@ -11,8 +11,8 @@ headless: true
 weight: 50
 
 # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-title: 'Accomplish&shy;ments'
-subtitle:
+title: 'Notable Applications'
+subtitle: Here are some select applications of my work.
 
 # Date format
 #   Refer to https://wowchemy.com/docs/customization/#date-format
@@ -24,14 +24,14 @@ date_format: Jan 2006
 #   Leave other parameters empty if not required.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 item:
-  - certificate_url: https://www.coursera.org
+  - certificate_url: ""
     date_end: ''
     date_start: '2021-01-25'
     description: ''
-    organization: Coursera
-    organization_url: https://www.coursera.org
-    title: Neural Networks and Deep Learning
-    url: ''
+    organization: "Event horizon telescope"
+    organization_url: https://eventhorizontelescope.org/
+    title: Event horizon telescope 
+    url: 'https://iopscience.iop.org/article/10.3847/2041-8213/abe71d'
   - certificate_url: https://www.edx.org
     date_end: ''
     date_start: '2021-01-01'
@@ -50,5 +50,5 @@ item:
     url: ''
 
 design:
-  columns: '2'
+  columns: '1'
 ---

@@ -26,11 +26,17 @@ tags: []
 title: Parallel tempering on optimized paths
 url_code: ""
 url_dataset: ""
-url_preprint: "https://arxiv.org/abs/2102.07720"
+url_preprint: ""
 url_pdf: "https://arxiv.org/pdf/2102.07720.pdf"
 url_poster: "uploads/poster_paths.pdf"
 url_project: ""
 url_slides: "uploads/slides_paths.pdf"
 url_source: "http://proceedings.mlr.press/v139/syed21a.html"
 url_video: "https://icml.cc/virtual/2021/spotlight/8924"
+
+links:
+- icon: ""
+  icon_pack: fab
+  name: Arxiv
+  url: https://arxiv.org/abs/2102.07720
 ---

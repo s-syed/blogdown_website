@@ -22,12 +22,20 @@ slides: ""
 summary: ""
 tags: []
 title: Parallel tempering with a variational reference
+
 url_code: ""
 url_dataset: ""
 url_pdf: "https://arxiv.org/pdf/2206.00080.pdf"
 url_poster: "uploads/poster_variational.pdf"
 url_project: ""
 url_slides: ""
-url_source: "https://arxiv.org/abs/2206.00080"
+url_source: ""
 url_video: ""
+
+links:
+- icon: ""
+  icon_pack: fab
+  name: Arxiv
+  url: https://arxiv.org/abs/2206.00080
+
 ---
