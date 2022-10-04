@@ -12,25 +12,25 @@ date: "2021-07-01T00:00:00Z"
 doi: ""
 featured: true
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  caption: ""
   focal_point: ""
   preview_only: false
 publication: International Conference on Machine Learning
-publication_short: In *ICML*
+publication_short: In the *International Conference on Machine Learning*
 publication_types:
 - "1"
 publishDate: ""
 slides: ""
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus
-  ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: ""
 tags: []
 title: Parallel tempering on optimized paths
 url_code: ""
 url_dataset: ""
+url_preprint: "https://arxiv.org/abs/2102.07720"
 url_pdf: "https://arxiv.org/pdf/2102.07720.pdf"
-url_poster: ""
+url_poster: "uploads/poster_paths.pdf"
 url_project: ""
-url_slides: ""
+url_slides: "uploads/slides_paths.pdf"
 url_source: "http://proceedings.mlr.press/v139/syed21a.html"
 url_video: "https://icml.cc/virtual/2021/spotlight/8924"
 ---

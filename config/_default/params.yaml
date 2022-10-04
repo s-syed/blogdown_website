@@ -19,7 +19,7 @@ marketing:
     local_business_type: ''
     org_name: ''
     description: 'Personal website for Saifuddin Syed.'
-    twitter: 'wowchemy'
+    twitter: ''
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -32,7 +32,7 @@ marketing:
 header:
   navbar:
     enable: true
-    align: l
+    align: r
     show_logo: true
     show_language: false
     show_day_night: true
@@ -43,9 +43,9 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Saifuddin Syed.'
     license:
-      enable: true
+      enable: false
       allow_derivatives: false
       share_alike: true
       allow_commercial: false

@@ -13,7 +13,7 @@ subtitle:
 
 content:
   # Automatically link email and phone or display as text?
-  autolink: true
+  autolink: false
 
   # Email form provider
   # form:
@@ -26,18 +26,18 @@ content:
 
   # Contact details (edit or remove options as required)
   email: saifuddin.syed@stats.ox.ac.uk
-  # phone: + 888 88 88
+  phone: +44 7467 304999
   address:
-    street: 450 Serra Mall
+    street: 24-29 St Giles
     city: Oxford
     region: CA
-    postcode: '94305'
+    postcode: 'OX1 3LB'
     country: United Kingdom
-    # country_code: US
+    country_code: UK
   # coordinates:
   #   latitude: '37.4275'
   #   longitude: '-122.1697'
-  directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+  directions: Office 1.18
   # office_hours:
   #   - 'Monday 10:00 to 13:00'
   #   - 'Wednesday 09:00 to 10:00'

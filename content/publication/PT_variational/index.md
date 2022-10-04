@@ -1,5 +1,6 @@
 ---
-abstract: Parallel tempering (PT) is a class of Markov chain Monte Carlo algorithms that constructs a path of distributions annealing between a tractable reference and an intractable target, and then interchanges states along the path to improve mixing in the target. The performance of PT depends on how quickly a sample from the reference distribution makes its way to the target, which in turn depends on the particular path of annealing distributions. However, past work on PT has used only simple paths constructed from convex combinations of the reference and target log-densities. This paper begins by demonstrating that this path performs poorly in the setting where the reference and target are nearly mutually singular. To address this issue, we expand the framework of PT to general families of paths, formulate the choice of path as an optimization problem that admits tractable gradient estimates, and propose a flexible new family of spline interpolation paths for use in practice. Theoretical and empirical results both demonstrate that our proposed methodology breaks previously-established upper performance limits for traditional paths.
+abstract: Sampling from complex target distributions is a challenging task fundamental to Bayesian inference. Parallel tempering (PT) addresses this problem by constructing a Markov chain on the expanded state space of a sequence of distributions interpolating between the posterior distribution and a fixed reference distribution, which is typically chosen to be the prior. However, in the typical case where the prior and posterior are nearly mutually singular, PT methods are computationally prohibitive. In this work we address this challenge by constructing a generalized annealing path connecting the posterior to an adaptively tuned variational reference. The reference distribution is tuned to minimize the forward (inclusive) KL divergence to the posterior distribution using a simple, gradient-free moment-matching procedure. We show that our adaptive procedure converges to the forward KL minimizer, and that the forward KL divergence serves as a good proxy to a previously developed measure of PT performance. We also show that in the large-data limit in typical Bayesian models, the proposed method improves in performance, while traditional PT deteriorates arbitrarily. Finally, we introduce PT with two references -- one fixed, one variational -- with a novel split annealing path that ensures stable variational reference adaptation. The paper concludes with experiments that demonstrate the large empirical gains achieved by our method in a wide range of realistic Bayesian inference scenarios.
+
 authors:
 - Nikola Surjanovic
 - admin
@@ -9,25 +10,24 @@ date: "2022-05-01T00:00:00Z"
 doi: ""
 featured: true
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  caption: ""
   focal_point: ""
   preview_only: false
-publication: NeurIPS
-publication_short: In *NeurIPS*
+publication: Conference on Neural Information Processing Systems
+publication_short: To appear in the *Conference on Neural Information Processing Systems (Accepted)*
 publication_types:
 - "1"
 publishDate: ""
 slides: ""
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus
-  ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: ""
 tags: []
 title: Parallel tempering with a variational reference
 url_code: ""
 url_dataset: ""
-url_pdf: "https://arxiv.org/pdf/2102.07720.pdf"
-url_poster: ""
+url_pdf: "https://arxiv.org/pdf/2206.00080.pdf"
+url_poster: "uploads/poster_variational.pdf"
 url_project: ""
 url_slides: ""
-url_source: "http://proceedings.mlr.press/v139/syed21a.html"
-url_video: "https://icml.cc/virtual/2021/spotlight/8924"
+url_source: "https://arxiv.org/abs/2206.00080"
+url_video: ""
 ---
