@@ -15,11 +15,11 @@ links:
   url: "https://arxiv.org/abs/2103.07515"
   
   
-summary: "Google research, TensorFlow probability and TAE technologies used non-reversible parallel tempering to infer plasma dynamics during nuclear fusion reactions."
+summary: "TAE technologies in collaboration with Google research and TensorFlow probability used NRPT to infer plasma dynamics inside a nuclear fusion reactor."
 
  
 tags: 
-title: "Bayesian inverse problem applied to fusion plasma reconstruction"
+title: "Modelling plasma dynamics in nuclear fusion reactor"
 url_code: ""
 url_pdf: ""
 url_slides: ""

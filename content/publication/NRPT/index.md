@@ -26,7 +26,7 @@ url_code: ""
 url_dataset: ""
 url_pdf: https://arxiv.org/pdf/1905.02939.pdf
 url_preprint: ""
-url_poster: "uploads/PTPoster.pdf"
+url_poster: "uploads/poster_nrpt.pdf"
 url_project: ""
 url_slides: ""
 url_source: "https://doi.org/10.1111/rssb.12464"

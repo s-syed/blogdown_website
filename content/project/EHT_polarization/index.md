@@ -16,7 +16,7 @@ links:
 # slides: example
 summary: "Non-reversible parallel tempering was used by the Event Horizon Telescope collaboration to discover magnetic polarization in M87's supermassive black hole."
 tags: 
-title: "Magnetic polarization discovered in M87 black hole photograph"
+title: "Discovering magnetic polarization in M87 supermassive black hole"
 url_code: ""
 url_pdf: ""
 url_slides: ""
