@@ -56,7 +56,3 @@ During my PhD I studied a non-reversible variant of a popular algorithm in compu
 
 
 My research aims to design algorithms for solving Bayesian inference problems in the applied sciences. I am interested in developing mathematically grounded, general-purpose algorithms that can efficiently scale to modern computing resources. My work is interdisciplinary and lies at the interface between probability theory, physics, machine learning, and differential geometry.
-
-
-
-{{< icon name="download" pack="fas" >}}{{< staticref "uploads/resume.pdf" "newtab" >}}Curriculum Vitae{{< /staticref >}}.
