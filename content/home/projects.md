@@ -47,4 +47,4 @@ design:
   # For Showcase view, flip alternate rows?
   flip_alt_rows: false
 ---
-Here are some recent examples of large-scale projects that used our non-reversible parallel tempering algorithm as the backbone of their inference engine. 
+Here are some recent examples of large-scale projects that used our NRPT algorithm as the backbone of their inference engine. 

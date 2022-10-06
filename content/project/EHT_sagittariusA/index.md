@@ -13,7 +13,7 @@ links:
   icon_pack: fab
   name: Article
   url: https://www.bbc.co.uk/news/science-environment-61412463
-summary: "The Event Horizon Telescope collaboration used non-reversible parallel tempering to produce the image of Sagittarius A*, the supermassive black hole at the center of the Milky Way."
+summary: "The Event Horizon Telescope collaboration used NRPT to image Sagittarius A*, the supermassive black hole at the center of the Milky Way."
 tags: 
 title: "Generating first image of Sagittarius A*"
 url_code: ""

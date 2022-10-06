@@ -26,4 +26,4 @@ url_slides: ""
 url_video: ""
 ---
 
-TAE Technologies, Inc. {{< staticref "https://tae.com/" "newtab" >}}(TAE){{< /staticref >}} and Google research used non-reversible parallel tempering in conjuction with Hamiltonian Monte Carlo to tackle ill-conditioned Bayesian inverse problems that arise when modelling the plasma dynamics in nuclear fusion reactors.
+TAE Technologies, Inc. {{< staticref "https://tae.com/" "newtab" >}}(TAE){{< /staticref >}} and Google research used NRPT in conjuction with Hamiltonian Monte Carlo to tackle ill-conditioned Bayesian inverse problems that arise when modelling the plasma dynamics in nuclear fusion reactors.
