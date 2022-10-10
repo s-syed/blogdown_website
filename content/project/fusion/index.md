@@ -7,7 +7,7 @@ image:
 links:
 - icon: 
   icon_pack: fab
-  name: IOP Paper
+  name: Nuclear Fusion Paper
   url: "https://iopscience.iop.org/article/10.1088/1741-4326/ac2521/meta?casa_token=2AyFziozyTYAAAAA:pCIXhaehOqXeafyO75ej83fbkPAwQjC9sZCrRWOk-phhHat2IjtVHLo04yxog3yUBFDi3aCc"
 - icon: 
   icon_pack: fab
