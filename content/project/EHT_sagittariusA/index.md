@@ -7,7 +7,7 @@ image:
 links:
 - icon: 
   icon_pack: fab
-  name: IOP Paper
+  name: ApJL Paper
   url: "https://iopscience.iop.org/article/10.3847/2041-8213/ac6736"
 - icon: 
   icon_pack: fab
