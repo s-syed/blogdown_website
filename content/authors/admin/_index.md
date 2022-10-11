@@ -40,6 +40,9 @@ social:
 - icon: graduation-cap
   icon_pack: fas
   link: https://scholar.google.co.uk/citations?user=R8ULnXoAAAAJ&hl=en
+- icon: orcid
+  icon_pack: fab
+  link: https://orcid.org/0000-0002-8499-8255
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/syedsaifuddin
@@ -50,7 +53,7 @@ superuser: true
 title: Saifuddin Syed
 ---
 
-I am a postdoctoral assistant in computational statistics and statistical machine learning at the University of Oxford Department of Statistics, supervised by {{< staticref "https://www.stats.ox.ac.uk/~doucet/" "newtab" >}}Arnaud Doucet.{{< /staticref >}} I recently joined the next generation Event Horizon Telescope {{< staticref "https://www.ngeht.org/" "newtab" >}}(ngEHT){{< /staticref >}} collaboration to help tackle computational statistical challenges when modelling and imaging supermassive black holes. Before this, I completed a PhD in Statistics under {{< staticref "https://www.stats.ox.ac.uk/~doucet/" "newtab" >}}Alexandre Bouchard-Côté{{< /staticref >}} at the University of British Columbia Department of Statistics.
+I am a postdoctoral research assistant in computational statistics and statistical machine learning at the University of Oxford supervised by {{< staticref "https://www.stats.ox.ac.uk/~doucet/" "newtab" >}}Arnaud Doucet{{< /staticref >}} and funded by the {{< staticref "https://www.cosines.org/#top" "newtab" >}}CoSInES{{< /staticref >}} project. I recently have joined the algorithms and inference working group in Next Generation Event Horizon Telescope {{< staticref "https://www.ngeht.org/" "newtab" >}}(ngEHT){{< /staticref >}} collaboration to help improve the algorithms used to model and image supermassive black holes. Before this, I completed a PhD in Statistics with {{< staticref "https://www.stats.ox.ac.uk/~doucet/" "newtab" >}}Alexandre Bouchard-Côté{{< /staticref >}} at the University of British Columbia.
 
 My research aims to design algorithms for solving Bayesian inference problems in the applied sciences. I am interested in developing general-purpose algorithms that are mathematically grounded and can efficiently scale to modern computing resources. My work is interdisciplinary and lies at the interface between probability theory, statistical physics, machine learning, and differential geometry.
 
