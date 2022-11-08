@@ -40,12 +40,12 @@ social:
 - icon: graduation-cap
   icon_pack: fas
   link: https://scholar.google.co.uk/citations?user=R8ULnXoAAAAJ&hl=en
-- icon: orcid
-  icon_pack: fab
-  link: https://orcid.org/0000-0002-8499-8255
-- icon: linkedin
-  icon_pack: fab
-  link: https://www.linkedin.com/in/syedsaifuddin
+#- icon: orcid
+#  icon_pack: fab
+#  link: https://orcid.org/0000-0002-8499-8255
+#- icon: linkedin
+#  icon_pack: fab
+#  link: https://www.linkedin.com/in/syedsaifuddin
 - icon: facebook
   icon_pack: fab
   link: https://youtu.be/dQw4w9WgXcQ
