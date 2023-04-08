@@ -17,11 +17,10 @@ first_name: Saifuddin
 highlight_name: true
 interests:
 - Parallel tempering
+- Annealing algorithms
 - Monte Carlo methods
-- Bayesian inference
-- Statistical physics
-- Stochastic analysis
-- Information geometry
+- Scalable Bayesian inference
+
 last_name: Syed
 organizations:
 - name: University of Oxford
@@ -53,10 +52,14 @@ superuser: true
 title: Saifuddin Syed
 ---
 
-I am a postdoctoral research assistant in computational statistics and machine learning at the University of Oxford supervised by {{< staticref "https://www.stats.ox.ac.uk/~doucet/" "newtab" >}}Arnaud Doucet{{< /staticref >}} and funded by the {{< staticref "https://www.cosines.org/#top" "newtab" >}}CoSInES{{< /staticref >}} project. I recently have joined the algorithms and inference working group in Next Generation Event Horizon Telescope {{< staticref "https://www.ngeht.org/" "newtab" >}}(ngEHT){{< /staticref >}} collaboration to help improve the algorithms used to model and image supermassive black holes. Before this, I completed a PhD in Statistics with {{< staticref "https://www.stats.ox.ac.uk/~doucet/" "newtab" >}}Alexandre Bouchard-Côté{{< /staticref >}} at the University of British Columbia.
 
-My research aims to design algorithms for solving Bayesian inference problems in the applied sciences. I am interested in developing general-purpose algorithms that are mathematically grounded and can efficiently scale to modern computing resources. My work is interdisciplinary and lies at the interface between probability theory, statistical physics, machine learning, and differential geometry.
+I am a Florence Nightingale Fellow in Computational Statistics and Machine Learning in the Department of Statisitics at the University of Oxford, and I am actively involved in the Algorithms and Inference Working Group for the Next Generation Event Horizon Telescope (ngEHT). Before assuming this role, I completed a postdoctoral fellowship under the guidance of {{< staticref "https://www.stats.ox.ac.uk/~doucet/" "newtab" >}}Arnaud Doucet{{< /staticref >}} and earned my PhD under the supervision of {{< staticref "https://www.stat.ubc.ca/~bouchard/" "newtab" >}}Alexandre Bouchard-Côté{{< /staticref >}}.
 
-During my PhD I studied a non-reversible variant of a popular algorithm in computational statistics and physics called parallel tempering. We showed that the non-reversible parallel tempering (NRPT) dominates the traditionally used reversible counterpart, can be efficiently tuned and can scale to GPUs. See the {{< staticref "#projects" >}}applications{{< /staticref >}} section for recent examples of projects using NRPT at scale and the {{< staticref "#publications" >}}publications{{< /staticref >}} section to learn more about NRPT.
+I am passionate about developing mathematically robust and scalable algorithms to tackle complex Bayesian inference challenges in scientific applications. My approach employs a technique known as "annealing," which addresses intractable problems by progressively transforming solutions derived from a more manageable reference problem. My research draws inspiration from diverse fields, including stochastic analysis, statistical physics, and differential geometry. Please refer to the {{< staticref "#projects" >}}applications{{< /staticref >}} section to explore recent large-scale implementations of my work.
+
+
+
+
+
 
 
