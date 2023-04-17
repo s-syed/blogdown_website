@@ -20,6 +20,7 @@ interests:
 - Annealing algorithms
 - Monte Carlo methods
 - Scalable Bayesian inference
+- AI for science
 
 last_name: Syed
 organizations:
@@ -52,10 +53,10 @@ superuser: true
 title: Saifuddin Syed
 ---
 
+I am a Florence Nightingale Bicentennial Fellow in computational statistics and machine learning at the University of Oxford's Department of Statistics, where I am also a member of the Algorithms and Inference Working Group for the Generation Event Horizon Telescope {{< staticref "https://www.ngeht.org/" "newtab" >}}(ngEHT){{< /staticref >}}. Prior to this role, I completed a postdoctoral fellowship under the guidance of {{< staticref "https://www.stats.ox.ac.uk/~doucet/" "newtab" >}}Arnaud Doucet{{< /staticref >}} and earned my PhD under the supervision of {{< staticref "https://www.stat.ubc.ca/~bouchard/" "newtab" >}}Alexandre Bouchard-Côté{{< /staticref >}}. I am honored to have been awarded the 2023 Pierre Robillard award by the Statistical Society of Canada {{< staticref "https://ssc.ca/en" "newtab" >}}(SSC){{< /staticref >}}, and I am also a finalist for the 2023 Savage award by the International Society of Bayesian Analysis {{< staticref "https://bayesian.org/" "newtab" >}}(ISBA){{< /staticref >}}.
 
-I am a Florence Nightingale Fellow in computational statistics and machine learning in Oxford's Department of Statistics, and am actively involved in the Algorithms and Inference Working Group for the Next Generation Event Horizon Telescope (ngEHT). Before assuming this role, I completed a postdoctoral fellowship under the guidance of {{< staticref "https://www.stats.ox.ac.uk/~doucet/" "newtab" >}}Arnaud Doucet{{< /staticref >}} and earned my PhD under the supervision of {{< staticref "https://www.stat.ubc.ca/~bouchard/" "newtab" >}}Alexandre Bouchard-Côté{{< /staticref >}}.
 
-I am passionate about developing mathematically robust and scalable algorithms to tackle complex Bayesian inference challenges in scientific applications. My approach employs a technique known as "annealing," which addresses intractable problems by progressively transforming solutions derived from a more manageable reference problem. My research draws inspiration from diverse fields, including stochastic analysis, statistical physics, and differential geometry. Please refer to the {{< staticref "#projects" >}}applications{{< /staticref >}} section to explore recent large-scale implementations of my work.
+My research focus is on developing mathematically rigorous and scalable algorithms for Bayesian inference in scientific applications. My approach is centered around the use of "annealing" techniques, which involve progressively transforming solutions from a more manageable reference problem to address intractable problems. I draw inspiration from a range of fields, including stochastic analysis, statistical physics, and differential geometry. Please refer to my {{< staticref "#publications" >}}publications{{< /staticref >}} section for an up-to-date list of my papers, and my {{< staticref "#projects" >}}applications{{< /staticref >}} section for recent large-scale applications of my work.
 
 
 
