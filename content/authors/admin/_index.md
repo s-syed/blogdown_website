@@ -16,11 +16,12 @@ email: "saifuddin.syed@stats.ox.ac.uk"
 first_name: Saifuddin
 highlight_name: true
 interests:
-- Parallel tempering
-- Annealing algorithms
-- Monte Carlo methods
+- Parallel Tempering
+- Annealing Algorithms
+- Markov Chain Monte Carlo
+- Sequential Monte Carlo
 - Scalable Bayesian inference
-- AI for science
+- AI for Science
 
 last_name: Syed
 organizations:
@@ -53,10 +54,12 @@ superuser: true
 title: Saifuddin Syed
 ---
 
-I am a Florence Nightingale Bicentennial Fellow in computational statistics and machine learning at the University of Oxford's Department of Statistics, where I am also a member of the Algorithms and Inference Working Group for the Generation Event Horizon Telescope {{< staticref "https://www.ngeht.org/" "newtab" >}}(ngEHT).{{< /staticref >}} Prior to this role, I completed a postdoctoral fellowship under the guidance of {{< staticref "https://www.stats.ox.ac.uk/~doucet/" "newtab" >}}Arnaud Doucet{{< /staticref >}} and earned my PhD under the supervision of {{< staticref "https://www.stat.ubc.ca/~bouchard/" "newtab" >}}Alexandre Bouchard-Côté.{{< /staticref >}} I am honored to have been awarded the 2023 Pierre Robillard award by the Statistical Society of Canada {{< staticref "https://ssc.ca/en" "newtab" >}}(SSC),{{< /staticref >}} and I am also a finalist for the 2023 Savage award by the International Society of Bayesian Analysis {{< staticref "https://bayesian.org/" "newtab" >}}(ISBA).{{< /staticref >}}
+I am a Florence Nightingale Bicentennial Fellow in computational statistics and machine learning at the University of Oxford's Department of Statistics, where I am also a member of the Algorithms and Inference Working Group for the Next Generation Event Horizon Telescope {{< staticref "https://www.ngeht.org/" "newtab" >}}(ngEHT).{{< /staticref >}} Prior to this role, I completed a postdoctoral fellowship under the guidance of {{< staticref "https://www.stats.ox.ac.uk/~doucet/" "newtab" >}}Arnaud Doucet{{< /staticref >}} and earned my PhD under the supervision of {{< staticref "https://www.stat.ubc.ca/~bouchard/" "newtab" >}}Alexandre Bouchard-Côté{{< /staticref >}}.  
 
 
-My research focus is on developing mathematically rigorous and scalable algorithms for Bayesian inference in scientific applications. My approach is centered around the use of "annealing" techniques, which involve progressively transforming solutions from a more manageable reference problem to address intractable problems. I draw inspiration from a range of fields, including stochastic analysis, statistical physics, and differential geometry. Please refer to my {{< staticref "#publications" >}}publications{{< /staticref >}} section for an up-to-date list of my papers, and my {{< staticref "#projects" >}}applications{{< /staticref >}} section for recent large-scale applications of my work.
+My research lies at the interface of probability theory, statistical physics and differential geometry with the aim of to designing scalable and robust algorithms for Bayesian inference. I am particularly interested in "annealing algorithms" such as parallel tempering and sequential Monte Carlo, which involve progressively transforming solutions from a tractable reference problem into solutions to an intractable target problem. My work on non-reversible parallel tempering received this year's {{< staticref "https://ssc.ca/en/publications/ssc-liaison/vol-37-2-april-2023/winner-pierre-robillard-award" "newtab" >}}Pierre Robillard Award{{< /staticref >}} from the SSC, the {{< staticref "https://caims.ca/award/cecil-graham-doctoral-dissertation-award/" "newtab" >}}Cecil Graham Doctoral Dissertation Award{{< /staticref >}} from the CAIMS, and is a finalist for the {{< staticref "https://bayesian.org/project/savage-award/" "newtab" >}}Savage Award{{< /staticref >}} for theory and methods from ISBA. 
+
+
 
 
 
