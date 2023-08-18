@@ -3,7 +3,7 @@ date: "2022-05-12T00:00:00Z"
 external_link: ""
 image:
   caption: "Event Horization Telescope Collaboration: Photo of Sagittarius A* (2022)"
-  focal_point: ""
+  focal_point: "" 
 links:
 - icon: 
   icon_pack: fab

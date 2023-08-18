@@ -8,7 +8,7 @@ widget: portfolio
 headless: true
 
 # Order that this section appears on the page.
-weight: 30
+weight: 60
 
 title: Notable Applications
 subtitle: ''
@@ -47,4 +47,5 @@ design:
   # For Showcase view, flip alternate rows?
   flip_alt_rows: false
 ---
-Here are some recent examples of large-scale projects that used NRPT as the backbone of their inference engine. Please reach out if you would like to use NRPT for your projects and have any questions. 
+Here are some recent examples of large-scale projects that used non-reversible parallel tempering (NRPT) as the backbone of their inference engine. Please reach out if you would like to use NRPT for your projects and have any questions. If you want to play around with NRPT check out our Julia package {{< staticref "https://github.com/Julia-Tempering/Pigeons.jl" "newtab" >}} Pigeons.jl{{< /staticref >}}.
+

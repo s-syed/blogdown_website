@@ -14,7 +14,7 @@ image:
   focal_point: ""
   preview_only: false
 publication: Conference on Neural Information Processing Systems
-publication_short: To appear in the *Conference on Neural Information Processing Systems (Accepted)*
+publication_short: Conference on Neural Information Processing Systems
 publication_types:
 - "1"
 publishDate: ""
@@ -29,7 +29,7 @@ url_pdf: "https://arxiv.org/pdf/2206.00080.pdf"
 url_poster: "uploads/poster_variational.pdf"
 url_project: ""
 url_slides: ""
-url_source: ""
+url_source: "https://papers.nips.cc/paper_files/paper/2022/hash/03cd3cf3f74d4f9ce5958de269960884-Abstract-Conference.html"
 url_video: ""
 
 links:

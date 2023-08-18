@@ -4,7 +4,7 @@ external_link: ""
 image:
   caption: "Salehi et al (2021)"
   focal_point: ""
-links:
+links: 
 - icon: 
   icon_pack: fab
   name: Nuclear Fusion Paper

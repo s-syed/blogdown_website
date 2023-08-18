@@ -22,5 +22,5 @@ url_pdf: ""
 url_slides: ""
 url_video: ""
 ---
-
+ 
 NRPT was an essential tool required by the Event Horizon Telescope ({{< staticref "https://eventhorizontelescope.org/" "newtab" >}}EHT{{< /staticref >}}) to discover magnetic polarization in the supermassive black hole at the center of galaxy M87, represented by the swirls. See Chapter 4 of {{< staticref "https://scholar.google.com/citations?user=LWGshtQAAAAJ&hl=en" "newtab" >}}Paul Tiede{{< /staticref >}}'s Ph.D. {{< staticref "https://uwspace.uwaterloo.ca/handle/10012/17199" "newtab" >}}Thesis (Chapter 4){{< /staticref >}} for a detailed comparison of NRPT against previous state-of-the-art samplers.

@@ -10,7 +10,7 @@ links:
   name: EAAMO Paper
   url: "https://dl.acm.org/doi/10.1145/3551624.3555300"
 
-  
+   
   
 summary: "Georgia Tech used NRPT to statistically identify gerrymandering in Georgia's 2021 congressional districting plan."
 tags: 

@@ -8,7 +8,7 @@ authors:
 - Chiao-Yu Yang
 - Michael I. Jordan
 - Tamara Broderick
-date: "2022-06-01T00:00:00Z"
+date: "2023-06-01T00:00:00Z"
 doi: ""
 featured: true
 image:
@@ -16,7 +16,7 @@ image:
   focal_point: ""
   preview_only: false
 publication: Bernoulli
-publication_short: To appear in *Bernoulli (Accepted)*
+publication_short: ""
 publication_types:
 - "2"
 publishDate: ""
@@ -31,7 +31,7 @@ url_pdf: "https://arxiv.org/pdf/1906.09507.pdf"
 url_poster: ""
 url_project: ""
 url_slides: ""
-url_source: ""
+url_source: "https://projecteuclid.org/journals/bernoulli/volume-29/issue-3/Local-exchangeability/10.3150/22-BEJ1533.short"
 url_video: ""
 
 links:
