@@ -16,7 +16,7 @@ image:
   focal_point: ""
   preview_only: false
 publication: International Conference on Machine Learning
-publication_short: In the *International Conference on Machine Learning*
+publication_short: International Conference on Machine Learning
 publication_types:
 - "1"
 publishDate: ""
