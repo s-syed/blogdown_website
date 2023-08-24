@@ -29,7 +29,7 @@ tags:
 title: "Pigeons.jl: Distributed sampling from intractable distributions"
 url_code: ""
 url_dataset: ""
-url_pdf: https://arxiv.org/abs/2308.09769
+url_pdf: "https://arxiv.org/abs/2308.09769.pdf"
 url_preprint: ""
 url_poster: ""
 url_project: ""

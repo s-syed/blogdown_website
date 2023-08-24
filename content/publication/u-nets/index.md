@@ -29,7 +29,7 @@ tags:
 title: "A Unified Framework for U-Net Design and Analysis"
 url_code: ""
 url_dataset: ""
-url_pdf: https://arxiv.org/abs/2305.19638
+url_pdf: "https://arxiv.org/pdf/2305.19638.pdf"
 url_preprint: ""
 url_poster: ""
 url_project: ""
