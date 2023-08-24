@@ -35,7 +35,7 @@ design:
   view: 4
   columns: '1'
 ---
-Many of the state-of-the-art algorithms in statistics, and machine learning, utilize a technique called annealing, which involves making inferences from an intractable target problem by incrementally deforming solutions from a tractable reference problem. I'm developing a unifying framework to study annealing and explore the connections between different annealing algorithms in the MCMC, SMC, variational inference, diffusion models, normalizing flows, and optimal transport literature. 
+Many of the state-of-the-art algorithms in statistics, and machine learning, utilize a technique called annealing, which involves making inferences from an intractable target problem by incrementally deforming solutions from a tractable reference problem. I'm am interested in using annealing as a tool to understand the interplay between MCMC, SMC, variational inference, diffusion models, normalizing flows, and optimal transport. 
 
 
 
