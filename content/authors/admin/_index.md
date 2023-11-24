@@ -16,11 +16,10 @@ email: "saifuddin.syed@stats.ox.ac.uk"
 first_name: Saifuddin
 highlight_name: true
 interests:
-- Annealing
-- Parallel Tempering
-- Markov Chain Monte Carlo
-- Sequential Monte Carlo
+- Parallel tempering
+- Annealing algorithms
 - Scalable Bayesian inference
+- Generative modelling
 - AI for Science
 
 last_name: Syed
@@ -54,10 +53,12 @@ superuser: true
 title: Saifuddin Syed
 ---
 
-I am a Florence Nightingale Bicentennial Fellow in computational statistics and machine learning at the University of Oxford's Department of Statistics, where I am also a member of the Algorithms and Inference Working Group for the Next Generation Event Horizon Telescope {{< staticref "https://www.ngeht.org/" "newtab" >}}(ngEHT).{{< /staticref >}} Prior to this role, I completed a postdoc under the guidance of {{< staticref "https://www.stats.ox.ac.uk/~doucet/" "newtab" >}}Arnaud Doucet{{< /staticref >}} and a PhD under the supervision of {{< staticref "https://www.stat.ubc.ca/~bouchard/" "newtab" >}}Alexandre Bouchard-Côté.{{< /staticref >}} My doctoral thesis won the {{< staticref "https://ssc.ca/en/publications/ssc-liaison/vol-37-2-april-2023/winner-pierre-robillard-award" "newtab" >}}Pierre Robillard Award{{< /staticref >}} from the Statistical Society of Canada (SSC), the {{< staticref "https://caims.ca/award/cecil-graham-doctoral-dissertation-award/" "newtab" >}}Cecil Graham Doctoral Dissertation Award{{< /staticref >}} from the Canadian Applied and Industrial Mathematics Society (CAIMS), and the {{< staticref "https://bayesian.org/project/savage-award/" "newtab" >}}Savage Award (Honourable Mention) {{< /staticref >}} for theory and methods from the International Society for Bayesian Analysis (ISBA). 
+I am a Florence Nightingale Bicentennial Fellow in computational statistics and machine learning at the University of Oxford's Department of Statistics, where I am also a member of the Algorithms and Inference Working Group for the Next Generation Event Horizon Telescope {{< staticref "https://www.ngeht.org/" "newtab" >}}(ngEHT).{{< /staticref >}} Prior to this role, I completed a postdoc under the guidance of {{< staticref "https://www.stats.ox.ac.uk/~doucet/" "newtab" >}}Arnaud Doucet{{< /staticref >}} and a PhD under the supervision of {{< staticref "https://www.stat.ubc.ca/~bouchard/" "newtab" >}}Alexandre Bouchard-Côté.{{< /staticref >}} 
 
 
-My research involves designing scalable and robust algorithms for Bayesian inference with scientific applications in mind. If you have a cool, computationally challenging problem reach out!
+My research involves developing robust and scalable algorithms for statistical inference and generative modelling, with scientific applications in mind. My research has received numerous national and internation awards including the {{< staticref "https://ssc.ca/en/publications/ssc-liaison/vol-37-2-april-2023/winner-pierre-robillard-award" "newtab" >}}Pierre Robillard Award{{< /staticref >}}, the {{< staticref "https://caims.ca/award/cecil-graham-doctoral-dissertation-award/" "newtab" >}}Cecil Graham Doctoral Dissertation Award{{< /staticref >}}, and the honourable mention of the {{< staticref "https://bayesian.org/project/savage-award/" "newtab" >}}Savage Award {{< /staticref >}} for Bayesian theory and methods. 
+
+If you have a cool, computationally challenging problem reach out!
 
 
 

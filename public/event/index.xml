@@ -1,35 +1,79 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Recent &amp; Upcoming Talks | Academic</title>
-    <link>https://example.com/event/</link>
-      <atom:link href="https://example.com/event/index.xml" rel="self" type="application/rss+xml" />
+    <title>Recent &amp; Upcoming Talks | Saifuddin Syed</title>
+    <link>https://saifsyed.com/event/</link>
+      <atom:link href="https://saifsyed.com/event/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 19 Sep 2022 10:30:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://saifsyed.com/media/icon_hu44c71babf33fc85cbedc591ae08dfa56_148264_512x512_fill_lanczos_center_3.png</url>
       <title>Recent &amp; Upcoming Talks</title>
-      <link>https://example.com/event/</link>
+      <link>https://saifsyed.com/event/</link>
     </image>
     
     <item>
-      <title>Example Talk</title>
-      <link>https://example.com/talk/example-talk/</link>
-      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>https://example.com/talk/example-talk/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Wowchemy&amp;rsquo;s &lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Further event details, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;page elements&lt;/a&gt; such as image galleries, can be added to the body of this page.&lt;/p&gt;
-</description>
+      <title>Harvard University Black Hole Institute Seminar</title>
+      <link>https://saifsyed.com/talk/harvard-university-black-hole-institute-seminar/</link>
+      <pubDate>Mon, 19 Sep 2022 10:30:00 +0000</pubDate>
+      <guid>https://saifsyed.com/talk/harvard-university-black-hole-institute-seminar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ISBA 2022 World Meeting</title>
+      <link>https://saifsyed.com/talk/isba-2022-world-meeting/</link>
+      <pubDate>Tue, 28 Jun 2022 16:30:00 +0000</pubDate>
+      <guid>https://saifsyed.com/talk/isba-2022-world-meeting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Université de Montréal Statlab Seminar</title>
+      <link>https://saifsyed.com/talk/universite-de-montreal-statlab-seminar/</link>
+      <pubDate>Wed, 22 Jun 2022 14:30:00 +0000</pubDate>
+      <guid>https://saifsyed.com/talk/universite-de-montreal-statlab-seminar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CoSInES Blue Sky Kitchen 2022</title>
+      <link>https://saifsyed.com/talk/cosines-blue-sky-kitchen-2022/</link>
+      <pubDate>Wed, 15 Jun 2022 15:00:00 +0000</pubDate>
+      <guid>https://saifsyed.com/talk/cosines-blue-sky-kitchen-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>University of Oxford OxCSML Seminar</title>
+      <link>https://saifsyed.com/talk/university-of-oxford-oxcsml-seminar/</link>
+      <pubDate>Fri, 27 May 2022 16:00:00 +0000</pubDate>
+      <guid>https://saifsyed.com/talk/university-of-oxford-oxcsml-seminar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>QUT Centre for Data Science: Early Career Bayes Seminar Series</title>
+      <link>https://saifsyed.com/talk/qut-centre-for-data-science-early-career-bayes-seminar-series/</link>
+      <pubDate>Wed, 13 Apr 2022 02:00:00 +0000</pubDate>
+      <guid>https://saifsyed.com/talk/qut-centre-for-data-science-early-career-bayes-seminar-series/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>University of British Columbia Department of Statistics Seminar</title>
+      <link>https://saifsyed.com/talk/university-of-british-columbia-department-of-statistics-seminar/</link>
+      <pubDate>Tue, 29 Mar 2022 11:00:00 +0000</pubDate>
+      <guid>https://saifsyed.com/talk/university-of-british-columbia-department-of-statistics-seminar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Simon Fraser University Department of Statistics Seminar</title>
+      <link>https://saifsyed.com/talk/simon-fraser-university-department-of-statistics-seminar/</link>
+      <pubDate>Fri, 04 Mar 2022 13:00:00 +0000</pubDate>
+      <guid>https://saifsyed.com/talk/simon-fraser-university-department-of-statistics-seminar/</guid>
+      <description></description>
     </item>
     
   </channel>

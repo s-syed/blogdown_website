@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>7 | Saifuddin Syed</title>
+    <link>https://saifsyed.com/publication-type/7/</link>
+      <atom:link href="https://saifsyed.com/publication-type/7/index.xml" rel="self" type="application/rss+xml" />
+    <description>7</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://saifsyed.com/media/icon_hu44c71babf33fc85cbedc591ae08dfa56_148264_512x512_fill_lanczos_center_3.png</url>
+      <title>7</title>
+      <link>https://saifsyed.com/publication-type/7/</link>
+    </image>
+    
+    <item>
+      <title>Doctoral thesis: Non-reversible parallel tempering on optimized paths</title>
+      <link>https://saifsyed.com/publication/thesis/</link>
+      <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://saifsyed.com/publication/thesis/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,36 +1,93 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects | Academic</title>
-    <link>https://example.com/project/</link>
-      <atom:link href="https://example.com/project/index.xml" rel="self" type="application/rss+xml" />
+    <title>Projects | Saifuddin Syed</title>
+    <link>https://saifsyed.com/project/</link>
+      <atom:link href="https://saifsyed.com/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 17 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://saifsyed.com/media/icon_hu44c71babf33fc85cbedc591ae08dfa56_148264_512x512_fill_lanczos_center_3.png</url>
       <title>Projects</title>
-      <link>https://example.com/project/</link>
+      <link>https://saifsyed.com/project/</link>
     </image>
     
     <item>
-      <title>Example Project</title>
-      <link>https://example.com/project/example/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/example/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+      <title>Discover gerrymandering in Georgia&#39;s 2021 congressional districting plan</title>
+      <link>https://saifsyed.com/project/georgia/</link>
+      <pubDate>Mon, 17 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://saifsyed.com/project/georgia/</guid>
+      <description>&lt;p&gt;Researchers at Georgia Tech used NRPT to statistically identify gerrymandering in Georgia&amp;rsquo;s 2021 congressional districting plan.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>External Project</title>
-      <link>https://example.com/project/external-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/external-project/</guid>
-      <description></description>
+      <title>Generating first image of Sagittarius A*</title>
+      <link>https://saifsyed.com/project/eht_sagittariusa/</link>
+      <pubDate>Thu, 12 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://saifsyed.com/project/eht_sagittariusa/</guid>
+      <description>&lt;p&gt;The Event Horizon Telescope 
+
+&lt;a href=&#34;https://eventhorizontelescope.org/&#34; target=&#34;_blank&#34;&gt;(EHT)&lt;/a&gt;
+ used non-reversible parallel tempering to generate the photograph of Sagittarius A*, the supermassive black hole at the center of the Milky Way.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Modeling evolution of single-cell cancer genomes</title>
+      <link>https://saifsyed.com/project/cancer_evolution/</link>
+      <pubDate>Wed, 23 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://saifsyed.com/project/cancer_evolution/</guid>
+      <description>&lt;p&gt;The BC Cancer Research Center 
+
+&lt;a href=&#34;https://www.bccrc.ca/&#34; target=&#34;_blank&#34;&gt;(BCCRC)&lt;/a&gt;
+ and Memorial Sloan Kettering Cancer Center 
+
+&lt;a href=&#34;https://www.mskcc.org/&#34; target=&#34;_blank&#34;&gt;(MSK)&lt;/a&gt;
+ used  ‘Blang,’ a new probabilistic programming language using NRPT, to model the evolution of single-cell cancer genomes. See the links for the resulting Nature paper and the Journal of Statistical Software paper on Blang.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Modelling plasma dynamics in nuclear fusion reactor</title>
+      <link>https://saifsyed.com/project/fusion/</link>
+      <pubDate>Wed, 23 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://saifsyed.com/project/fusion/</guid>
+      <description>&lt;p&gt;TAE Technologies, Inc. 
+
+&lt;a href=&#34;https://tae.com/&#34; target=&#34;_blank&#34;&gt;(TAE)&lt;/a&gt;
+ and Google research used NRPT in conjuction with Hamiltonian Monte Carlo to tackle ill-conditioned Bayesian inverse problems that arise when modelling the plasma dynamics in the world largest field-reversed configuration (FCR) nuclear fusion reactor.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Modelling plasma dynamics in nuclear fusion reactor</title>
+      <link>https://saifsyed.com/project/malaria/</link>
+      <pubDate>Wed, 23 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://saifsyed.com/project/malaria/</guid>
+      <description>&lt;p&gt;TAE Technologies, Inc. 
+
+&lt;a href=&#34;https://tae.com/&#34; target=&#34;_blank&#34;&gt;(TAE)&lt;/a&gt;
+ and Google research used NRPT in conjuction with Hamiltonian Monte Carlo to tackle ill-conditioned Bayesian inverse problems that arise when modelling the plasma dynamics in the world largest field-reversed configuration (FCR) nuclear fusion reactor.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Discovering magnetic polarization in M87 supermassive black hole</title>
+      <link>https://saifsyed.com/project/eht_polarization/</link>
+      <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://saifsyed.com/project/eht_polarization/</guid>
+      <description>&lt;p&gt;NRPT was an essential tool required by the Event Horizon Telescope (
+
+&lt;a href=&#34;https://eventhorizontelescope.org/&#34; target=&#34;_blank&#34;&gt;EHT&lt;/a&gt;
+) to discover magnetic polarization in the supermassive black hole at the center of galaxy M87, represented by the swirls. See Chapter 4 of 
+
+&lt;a href=&#34;https://scholar.google.com/citations?user=LWGshtQAAAAJ&amp;amp;hl=en&#34; target=&#34;_blank&#34;&gt;Paul Tiede&lt;/a&gt;
+&amp;rsquo;s Ph.D. 
+
+&lt;a href=&#34;https://uwspace.uwaterloo.ca/handle/10012/17199&#34; target=&#34;_blank&#34;&gt;Thesis (Chapter 4)&lt;/a&gt;
+ for a detailed comparison of NRPT against previous state-of-the-art samplers.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

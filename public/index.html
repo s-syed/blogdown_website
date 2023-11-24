@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Wowchemy. https://www.wowchemy.com -->
-<!-- Last Published: October 3, 2022 --><html lang="en-us" >
+<!-- Last Published: November 24, 2023 --><html lang="en-us" >
 
 
 <head>
@@ -67,6 +67,9 @@
 
   
   
+    
+    <script src="/js/mathjax-config.js"></script>
+  
 
   
 
@@ -87,6 +90,8 @@
       
       
       
+      
+        
       
         
       
@@ -217,9 +222,9 @@
 
       
       
-        
-      
 
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
       
     
       
@@ -269,6 +274,45 @@
 
 
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HXNGGG8PZS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-HXNGGG8PZS', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+
 
 
 
@@ -298,7 +342,7 @@
 
 
 
-  <meta name="author" content="Alice Bighetti 吳恩達" />
+  <meta name="author" content="Saifuddin Syed" />
 
 
 
@@ -306,12 +350,12 @@
 
   
 
-<meta name="description" content="A highly-customizable Hugo academic resume theme powered by Wowchemy website builder." />
+<meta name="description" content="Personal website for Saifuddin Syed." />
 
 
 
-<link rel="alternate" hreflang="en-us" href="https://example.com/" />
-<link rel="canonical" href="https://example.com/" />
+<link rel="alternate" hreflang="en-us" href="https://saifsyed.com/" />
+<link rel="canonical" href="https://saifsyed.com/" />
 
 
 
@@ -319,8 +363,8 @@
 
 
 
-<link rel="icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png" />
-<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_3.png" />
+<link rel="icon" type="image/png" href="/media/icon_hu44c71babf33fc85cbedc591ae08dfa56_148264_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu44c71babf33fc85cbedc591ae08dfa56_148264_180x180_fill_lanczos_center_3.png" />
 
 <meta name="theme-color" content="#1565c0" />
 
@@ -342,17 +386,14 @@
 
 
 <meta property="twitter:card" content="summary" />
-
-  <meta property="twitter:site" content="@wowchemy" />
-  <meta property="twitter:creator" content="@wowchemy" />
-<meta property="twitter:image" content="https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
-<meta property="og:site_name" content="Academic" />
-<meta property="og:url" content="https://example.com/" />
-<meta property="og:title" content="Academic" />
-<meta property="og:description" content="A highly-customizable Hugo academic resume theme powered by Wowchemy website builder." /><meta property="og:image" content="https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+<meta property="twitter:image" content="https://saifsyed.com/media/icon_hu44c71babf33fc85cbedc591ae08dfa56_148264_512x512_fill_lanczos_center_3.png" />
+<meta property="og:site_name" content="Saifuddin Syed" />
+<meta property="og:url" content="https://saifsyed.com/" />
+<meta property="og:title" content="Saifuddin Syed" />
+<meta property="og:description" content="Personal website for Saifuddin Syed." /><meta property="og:image" content="https://saifsyed.com/media/icon_hu44c71babf33fc85cbedc591ae08dfa56_148264_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
 
   
-    <meta property="og:updated_time" content="2030-06-01T13:00:00&#43;00:00" />
+    <meta property="og:updated_time" content="2023-10-25T00:00:00&#43;00:00" />
   
 
 
@@ -365,10 +406,10 @@
   "@type": "WebSite",
   "potentialAction": {
     "@type": "SearchAction",
-    "target": "https://example.com/?q={search_term_string}",
+    "target": "https://saifsyed.com/?q={search_term_string}",
     "query-input": "required name=search_term_string"
   },
-  "url": "https://example.com/"
+  "url": "https://saifsyed.com/"
 }
 </script>
 
@@ -386,14 +427,14 @@
 
   
   
-    <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Academic" />
+    <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Saifuddin Syed" />
   
 
   
 
 
   
-  <title>Academic</title>
+  <title>Saifuddin Syed</title>
 
   
   
@@ -488,7 +529,7 @@
 
       
       <div class="d-none d-lg-inline-flex">
-        <a class="navbar-brand" href="/">Academic</a>
+        <a class="navbar-brand" href="/">Saifuddin Syed</a>
       </div>
       
 
@@ -501,13 +542,13 @@
 
       
       <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-        <a class="navbar-brand" href="/">Academic</a>
+        <a class="navbar-brand" href="/">Saifuddin Syed</a>
       </div>
       
 
       
       
-      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+      <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
 
         
         <ul class="navbar-nav d-md-inline-flex">
@@ -581,7 +622,7 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/#posts" data-target="#posts"><span>Posts</span></a>
+            <a class="nav-link " href="/#projects" data-target="#projects"><span>Applications</span></a>
           </li>
 
           
@@ -618,81 +659,7 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/#projects" data-target="#projects"><span>Projects</span></a>
-          </li>
-
-          
-          
-
-          
-
-          
-          
-          
-            
-          
-
-          
-
-          
-          
-          
-          
-
-          
-            
-              
-              
-            
-            
-              
-              
-              
-                
-              
-              
-            
-          
-
-          <li class="nav-item">
-            <a class="nav-link " href="/#talks" data-target="#talks"><span>Talks</span></a>
-          </li>
-
-          
-          
-
-          
-
-          
-          
-          
-            
-          
-
-          
-
-          
-          
-          
-          
-
-          
-            
-              
-              
-            
-            
-              
-              
-              
-                
-              
-              
-            
-          
-
-          <li class="nav-item">
-            <a class="nav-link " href="/#featured" data-target="#featured"><span>Publications</span></a>
+            <a class="nav-link " href="/#publications" data-target="#publications"><span>Publications</span></a>
           </li>
 
           
@@ -735,6 +702,36 @@
           
           
 
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/uploads/resume.pdf"><span>CV</span></a>
+          </li>
+
+          
+          
+
         
 
           
@@ -745,13 +742,6 @@
 
         
         
-          
-            
-            <li class="nav-item d-none d-lg-inline-flex">
-              <a class="nav-link" href="https://twitter.com/GeorgeCushen" data-toggle="tooltip" data-placement="bottom" title="Follow me on Twitter" target="_blank" rel="noopener" aria-label="Follow me on Twitter">
-                <i class="fab fa-twitter" aria-hidden="true"></i>
-              </a>
-            </li>
           
         
 
@@ -930,19 +920,19 @@
       
       <img class="avatar avatar-circle"
            width="270" height="270"
-           src="/authors/admin/avatar_hu3c64bd0f98018e2d901b7c60447ac42e_1387900_270x270_fill_q75_lanczos_center.jpg" alt="Alice Bighetti 吳恩達">
+           src="/authors/admin/avatar_hu8551532332a6e034eb78f1daa8318e18_1646498_270x270_fill_q75_lanczos_center.jpg" alt="Saifuddin Syed">
       
 
       <div class="portrait-title">
 
-        <h2>Alice Bighetti 吳恩達</h2>
+        <h2>Saifuddin Syed</h2>
 
-        <h3>Professor of Artificial Intelligence</h3>
+        <h3>Department of Statistics</h3>
 
         
         <h3>
-          <a href="https://www.stanford.edu/" target="_blank" rel="noopener">
-          <span>Stanford University</span>
+          <a href="https://www.stats.ox.ac.uk/" target="_blank" rel="noopener">
+          <span>University of Oxford</span>
           </a>
         </h3>
         
@@ -979,24 +969,7 @@
           
         
         <li>
-          <a href="https://twitter.com/GeorgeCushen" target="_blank" rel="noopener" aria-label="twitter">
-            <i class="fab fa-twitter big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-          
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a href="https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ" target="_blank" rel="noopener" aria-label="graduation-cap">
+          <a href="https://scholar.google.co.uk/citations?user=R8ULnXoAAAAJ&amp;hl=en" target="_blank" rel="noopener" aria-label="graduation-cap">
             <i class="fas fa-graduation-cap big-icon"></i>
           </a>
         </li>
@@ -1013,25 +986,8 @@
           
         
         <li>
-          <a href="https://github.com/gcushen" target="_blank" rel="noopener" aria-label="github">
-            <i class="fab fa-github big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-          
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="linkedin">
-            <i class="fab fa-linkedin big-icon"></i>
+          <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank" rel="noopener" aria-label="facebook">
+            <i class="fab fa-facebook big-icon"></i>
           </a>
         </li>
         
@@ -1045,13 +1001,27 @@
     <h1>Biography</h1>
 
     <div class="article-style">
-      <p>Alice Bighetti is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.</p>
-<p>
-  <i class="fas fa-download  pr-1 fa-fw"></i> Download my 
+      <p>I am a Florence Nightingale Bicentennial Fellow in computational statistics and machine learning at the University of Oxford&rsquo;s Department of Statistics, where I am also a member of the Algorithms and Inference Working Group for the Next Generation Event Horizon Telescope 
 
-<a href="/uploads/demo_resume.pdf" target="_blank">resumé</a>
-.</p>
+<a href="https://www.ngeht.org/" target="_blank">(ngEHT).</a>
+ Prior to this role, I completed a postdoc under the guidance of 
+
+<a href="https://www.stats.ox.ac.uk/~doucet/" target="_blank">Arnaud Doucet</a>
+ and a PhD under the supervision of 
+
+<a href="https://www.stat.ubc.ca/~bouchard/" target="_blank">Alexandre Bouchard-Côté.</a>
+</p>
+<p>My research involves developing robust and scalable algorithms for statistical inference and generative modelling, with scientific applications in mind. My research has received numerous national and internation awards including the 
+
+<a href="https://ssc.ca/en/publications/ssc-liaison/vol-37-2-april-2023/winner-pierre-robillard-award" target="_blank">Pierre Robillard Award</a>
+, the 
+
+<a href="https://caims.ca/award/cecil-graham-doctoral-dissertation-award/" target="_blank">Cecil Graham Doctoral Dissertation Award</a>
+, and the honourable mention of the 
+
+<a href="https://bayesian.org/project/savage-award/" target="_blank">Savage Award </a>
+ for Bayesian theory and methods.</p>
+<p>If you have a cool, computationally challenging problem reach out!</p>
 
     </div>
 
@@ -1062,11 +1032,15 @@
         <div class="section-subheading">Interests</div>
         <ul class="ul-interests mb-0">
           
-          <li>Artificial Intelligence</li>
+          <li>Parallel tempering</li>
           
-          <li>Computational Linguistics</li>
+          <li>Annealing algorithms</li>
           
-          <li>Information Retrieval</li>
+          <li>Scalable Bayesian inference</li>
+          
+          <li>Generative modelling</li>
+          
+          <li>AI for Science</li>
           
         </ul>
       </div>
@@ -1080,24 +1054,24 @@
           <li>
             <i class="fa-li fas fa-graduation-cap"></i>
             <div class="description">
-              <p class="course">PhD in Artificial Intelligence, 2012</p>
-              <p class="institution">Stanford University</p>
+              <p class="course">PhD in Statistics, 2022</p>
+              <p class="institution">University of British Columbia</p>
             </div>
           </li>
           
           <li>
             <i class="fa-li fas fa-graduation-cap"></i>
             <div class="description">
-              <p class="course">MEng in Artificial Intelligence, 2009</p>
-              <p class="institution">Massachusetts Institute of Technology</p>
+              <p class="course">MSc in Mathematics, 2016</p>
+              <p class="institution">University of British Columbia</p>
             </div>
           </li>
           
           <li>
             <i class="fa-li fas fa-graduation-cap"></i>
             <div class="description">
-              <p class="course">BSc in Artificial Intelligence, 2008</p>
-              <p class="institution">Massachusetts Institute of Technology</p>
+              <p class="course">BMath in Pure &amp; Applied Mathematics, 2014</p>
+              <p class="institution">University of Waterloo</p>
             </div>
           </li>
           
@@ -1179,156 +1153,18 @@
 
 
 
-<section id="skills" class="home-section wg-features  "  >
+<section id="publications" class="home-section wg-collection  "  >
  <div class="home-section-bg " >
    
  </div>
   <div class="container">
 
   
-
-    
-
-
-
-
-
-
-
-<div class="row featurette">
-  
-  <div class="col-md-12 section-heading">
-    <h1>Skills</h1>
-    
-  </div>
-  
-
-  
-
-  
-  
-  
-  
-    
-  
-  <div class="col-12 col-sm-4">
-    
-    <div class="featurette-icon"><i class="fab fa-r-project"></i></div>
-    
-    <div class="section-subheading">R</div>
-    <p>90%</p>
-  </div>
-  
-  
-  
-  
-    
-  
-  <div class="col-12 col-sm-4">
-    
-    <div class="featurette-icon"><i class="fas fa-chart-line"></i></div>
-    
-    <div class="section-subheading">Statistics</div>
-    <p>100%</p>
-  </div>
-  
-  
-  
-  
-    
-  
-  <div class="col-12 col-sm-4">
-    
-    <div class="featurette-icon"><i class="fas fa-camera-retro"></i></div>
-    
-    <div class="section-subheading">Photography</div>
-    <p>10%</p>
-  </div>
-  
-</div>
-
-
-  
-
-  </div>
-</section>
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section id="experience" class="home-section wg-experience  "  >
- <div class="home-section-bg " >
-   
- </div>
-  <div class="container">
-
-  
-    <div class="row  ">
+    <div class="row  justify-content-center">
     
       
-        <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
-          <h1 class="mb-0">Experience</h1>
+        <div class="section-heading col-12 mb-3 text-center">
+          <h1 class="mb-0">Research</h1>
           
         </div>
       
@@ -1345,392 +1181,244 @@
 
 
 
-<div class="col-12 col-lg-8">
+
   
+
+
+
+
+
+
+
+
 
   
   
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   
+
+
+
+
+<div class="col-12 ">
+
+  <p>Many of the state-of-the-art algorithms in statistics, and machine learning, utilize a technique called annealing, which involves making inferences from an intractable target problem by incrementally deforming solutions from a tractable reference problem. I&rsquo;m am interested in using annealing as a tool to understand the interplay between MCMC, SMC, variational inference, diffusion models, normalizing flows, and optimal transport.</p>
+
+
   
-  <div class="row experience">
     
-    <div class="col-auto text-center flex-column d-none d-sm-flex">
-      <div class="row h-50">
-        <div class="col ">&nbsp;</div>
-        <div class="col">&nbsp;</div>
-      </div>
-      <div class="m-2">
-        <span class="badge badge-pill border exp-fill">&nbsp;</span>
-      </div>
-      <div class="row h-50">
-        <div class="col border-right">&nbsp;</div>
-        <div class="col">&nbsp;</div>
-      </div>
-    </div>
-    
-    <div class="col py-2">
-      <div class="card">
-        <div class="card-body">
-          <div class="d-flex align-content-start">
-            <div class="mr-2 mb-2"><img src="/media/icons/brands/org-gc.svg" width="56px" height="56px" alt="GenCoin" loading="lazy"></div>
-            <div>
-          
 
-              <div class="section-subheading card-title exp-title text-muted my-0">CEO</div>
-              <div class="section-subheading card-title exp-company text-muted my-0">GenCoin</div>
-              <div class="text-muted exp-meta">
-                Jan 2021 –
-                
-                  Present
-                
-                
-                  <span class="middot-divider"></span>
-                  <span>California</span>
-                
-              </div>
-            </div>
-          </div>
-          
 
-          <div class="card-text"><p>Responsibilities include:</p>
-<ul>
-<li>Analysing</li>
-<li>Modelling</li>
-<li>Deploying</li>
-</ul>
-</div>
-        </div>
-      </div>
-    </div>
-  </div>
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
   
-  <div class="row experience">
-    
-    <div class="col-auto text-center flex-column d-none d-sm-flex">
-      <div class="row h-50">
-        <div class="col border-right">&nbsp;</div>
-        <div class="col">&nbsp;</div>
-      </div>
-      <div class="m-2">
-        <span class="badge badge-pill border ">&nbsp;</span>
-      </div>
-      <div class="row h-50">
-        <div class="col ">&nbsp;</div>
-        <div class="col">&nbsp;</div>
-      </div>
-    </div>
-    
-    <div class="col py-2">
-      <div class="card">
-        <div class="card-body">
-          <div class="d-flex align-content-start">
-            <div class="mr-2 mb-2"><img src="/media/icons/brands/org-x.svg" width="56px" height="56px" alt="University X" loading="lazy"></div>
-            <div>
-          
+  
 
-              <div class="section-subheading card-title exp-title text-muted my-0">Professor of Semiconductor Physics</div>
-              <div class="section-subheading card-title exp-company text-muted my-0">University X</div>
-              <div class="text-muted exp-meta">
-                Jan 2016 –
-                
-                  Dec 2020
-                
-                
-                  <span class="middot-divider"></span>
-                  <span>California</span>
-                
-              </div>
-            </div>
-          </div>
-          
+  <span class="article-metadata li-cite-author">
+    
 
-          <div class="card-text">Taught electronic engineering and researched semiconductor physics.</div>
-        </div>
-      </div>
-    </div>
-  </div>
+  <span >
+      Miguel Biron-Lattes</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
+      Nikola Surjanovic</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span class="author-highlighted">
+      Saifuddin Syed</span>, <span >
+      Trevor Campbell</span>, <span >
+      Alexandre Bouchard-Côté</span>
+  </span>
+  (2023).
+  <a href="/publication/auto_mala/">autoMALA: Locally adaptive Metropolis-adjusted Langevin algorithm</a>.
+  Arxiv Preprint.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/abs/2310.16782.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/auto_mala/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/abs/2310.16782" target="_blank" rel="noopener">
+    Arxiv</a>
+
+</p>
+
   
   
 </div>
 
-
   
-    </div>
-  
-
-  </div>
-</section>
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section id="accomplishments" class="home-section wg-accomplishments  "  >
- <div class="home-section-bg " >
-   
- </div>
-  <div class="container">
-
-  
-    <div class="row  ">
-    
-      
-        <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
-          <h1 class="mb-0">Accomplish­ments</h1>
-          
-        </div>
-      
-    
-  
-
     
 
 
-
-
-
-
-
-
-
-<div class="col-12 col-lg-8">
-  
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
   
-    <div class="card experience course">
-      <div class="card-body">
-        <div class="d-flex align-content-start">
-          <div class="mr-2 mb-2"><a href="https://www.coursera.org" target="_blank" rel="noopener"><img src="/media/icons/brands/coursera.svg" width="56px" height="56px" alt="Coursera" loading="lazy"></a></div>
-          <div>
-        <div class="section-subheading card-title exp-title text-muted my-0">Neural Networks and Deep Learning</div><div class="card-subtitle my-0 article-metadata"><a href="https://www.coursera.org" target="_blank" rel="noopener">Coursera</a><span class="middot-divider"></span>
 
-              Jan 2021
-              
-            </div>
-          </div>
-        </div>
-        
+  <span class="article-metadata li-cite-author">
+    
 
-        
-
-        
-          <a class="card-link" href="https://www.coursera.org" target="_blank" rel="noopener">
-            See certificate
-          </a>
-        
-      </div>
-    </div>
+  <span >
+      Nikola Surjanovic</span>, <span >
+      Miguel Biron-Lattes</span>, <span >
+      Paul Tiede</span>, <span class="author-highlighted">
+      Saifuddin Syed</span>, <span >
+      Trevor Campbell</span>, <span >
+      Alexandre Bouchard-Côté</span>
+  </span>
+  (2023).
+  <a href="/publication/pigeons/">Pigeons.jl: Distributed sampling from intractable distributions</a>.
+  Arxiv Preprint.
   
-    <div class="card experience course">
-      <div class="card-body">
-        <div class="d-flex align-content-start">
-          <div class="mr-2 mb-2"><a href="https://www.edx.org" target="_blank" rel="noopener"><img src="/media/icons/brands/edx.svg" width="56px" height="56px" alt="edX" loading="lazy"></a></div>
-          <div>
-        <a href="https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals" target="_blank" rel="noopener"><div class="section-subheading card-title exp-title text-muted my-0">Blockchain Fundamentals</div></a><div class="card-subtitle my-0 article-metadata"><a href="https://www.edx.org" target="_blank" rel="noopener">edX</a><span class="middot-divider"></span>
+  <p>
 
-              Jan 2021
-              
-            </div>
-          </div>
-        </div>
-        
 
-        
-          <div class="card-text">Formulated informed blockchain models, hypotheses, and use cases.</div>
-        
 
-        
-          <a class="card-link" href="https://www.edx.org" target="_blank" rel="noopener">
-            See certificate
-          </a>
-        
-      </div>
-    </div>
+
+
+
+
+
   
-    <div class="card experience course">
-      <div class="card-body">
-        <div class="d-flex align-content-start">
-          <div class="mr-2 mb-2"><a href="https://www.datacamp.com" target="_blank" rel="noopener"><img src="/media/icons/brands/datacamp.svg" width="56px" height="56px" alt="DataCamp" loading="lazy"></a></div>
-          <div>
-        <div class="section-subheading card-title exp-title text-muted my-0">Object-Oriented Programming in R</div><div class="card-subtitle my-0 article-metadata"><a href="https://www.datacamp.com" target="_blank" rel="noopener">DataCamp</a><span class="middot-divider"></span>
+    
+  
 
-              Jul 2020
-              
-              – Dec 2020
-              
-            </div>
-          </div>
-        </div>
-        
 
-        
 
-        
-          <a class="card-link" href="https://www.datacamp.com" target="_blank" rel="noopener">
-            See certificate
-          </a>
-        
-      </div>
-    </div>
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/abs/2308.09769.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/pigeons/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/abs/2308.09769" target="_blank" rel="noopener">
+    Arxiv</a>
+
+</p>
+
   
   
 </div>
 
-
   
-    </div>
-  
-
-  </div>
-</section>
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section id="posts" class="home-section wg-collection  "  >
- <div class="home-section-bg " >
-   
- </div>
-  <div class="container">
-
-  
-    <div class="row  ">
-    
-      
-        <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
-          <h1 class="mb-0">Recent Posts</h1>
-          
-        </div>
-      
-    
-  
-
     
 
 
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span >
+      Trevor Campbell</span>, <span class="author-highlighted">
+      Saifuddin Syed</span>, <span >
+      Chiao-Yu Yang</span>, <span >
+      Michael I. Jordan</span>, <span >
+      Tamara Broderick</span>
+  </span>
+  (2023).
+  <a href="/publication/local_exchangeability/">Local Exchangeability</a>.
+  Bernoulli.
+  
+  <p>
 
 
 
@@ -1740,28 +1428,21 @@
 
 
   
-
-
-
-
-
-
-
-
-
-  
-  
-  
-  
+    
   
 
 
 
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/1906.09507.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
 
 
 
-
-
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/local_exchangeability/cite.bib">
+  Cite
+</a>
 
 
 
@@ -1775,410 +1456,524 @@
 
 
   
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://projecteuclid.org/journals/bernoulli/volume-29/issue-3/Local-exchangeability/10.3150/22-BEJ1533.short" target="_blank" rel="noopener">
+  Source Document
+</a>
 
 
-
-
-<div class="col-12 col-lg-8">
 
   
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/abs/1906.09507" target="_blank" rel="noopener">
+    Arxiv</a>
+
+</p>
+
+  
+  
+</div>
 
   
     
 
 
-
-
-
-
-
-
-
-
-
-
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
+  
 
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/post/getting-started/" >Welcome to Wowchemy, the website builder for Hugo</a>
-    </div>
-
-    
-    <a href="/post/getting-started/"  class="summary-link">
-      <div class="article-style">
-        Welcome 👋 We know that first impressions are important, so we&rsquo;ve populated your new site with some initial content to help you get familiar with everything in no time.
-      </div>
-    </a>
+  <span class="article-metadata li-cite-author">
     
 
-    <div class="stream-meta article-metadata">
+  <span >
+      Christopher Williams</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
+      Fabian Falck</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
+      George Deligiannidis</span>, <span >
+      Chris Holmes</span>, <span >
+      Arnaud Doucet</span>, <span class="author-highlighted">
+      Saifuddin Syed</span>
+  </span>
+  (2023).
+  <a href="/publication/u-nets/">A Unified Framework for U-Net Design and Analysis</a>.
+  Arxiv Preprint.
+  
+  <p>
 
-      
-
-      
-        
 
 
-<div class="article-metadata">
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/2305.19638.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/u-nets/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   
   
   
+    
   
-  <div>
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/abs/2305.19638" target="_blank" rel="noopener">
+    Arxiv</a>
+
+</p>
+
+  
+  
+</div>
+
+  
+    
+
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span >
+      Nikola Surjanovic</span>, <span class="author-highlighted">
+      Saifuddin Syed</span>, <span >
+      Trevor Campbell</span>, <span >
+      Alexandre Bouchard-Côté</span>
+  </span>
+  (2022).
+  <a href="/publication/pt_variational/">Parallel tempering with a variational reference</a>.
+  Conference on Neural Information Processing Systems.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/2206.00080.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/pt_variational/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/uploads/poster_variational.pdf" target="_blank" rel="noopener">
+  Poster
+</a>
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://papers.nips.cc/paper_files/paper/2022/hash/03cd3cf3f74d4f9ce5958de269960884-Abstract-Conference.html" target="_blank" rel="noopener">
+  Source Document
+</a>
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/abs/2206.00080" target="_blank" rel="noopener">
+    Arxiv</a>
+
+</p>
+
+  
+  
+</div>
+
+  
+    
+
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
     
 
   <span class="author-highlighted">
-      Alice Bighetti 吳恩達</span>, <span >
-      吳恩達</span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    Dec 13, 2020
+      Saifuddin Syed</span>
   </span>
+  (2022).
+  <a href="/publication/thesis/">Doctoral thesis: Non-reversible parallel tempering on optimized paths</a>.
+  University of British Columbia.
   
+  <p>
+
+
+
+
+
+
+
 
   
-
-  
-  <span class="middot-divider"></span>
-  <span class="article-reading-time">
-    3 min read
-  </span>
-  
-
-  
-  
-  
-  
-
-  
-  
-  <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/demo/">Demo</a>, <a href="/category/%E6%95%99%E7%A8%8B/">教程</a></span>
-  
-
-</div>
-
-      
-    </div>
-
     
+  
 
-  </div>
-  <div class="ml-3">
-    
-    
-      
-      <a href="/post/getting-started/" >
-        <img src="/post/getting-started/featured_hub9ee31969f44a6711206a2baf9f065b4_241861_150x0_resize_q75_h2_lanczos.webp" height="84" width="150"
-            alt="Welcome to Wowchemy, the website builder for Hugo" loading="lazy">
-      </a>
-    
-  </div>
-</div>
 
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://open.library.ubc.ca/media/stream/pdf/24/1.0413120/4" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/thesis/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+  
   
     
-
-
-
-
-
-
-
-
-
-
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/uploads/thesis_slides.pdf" target="_blank" rel="noopener">
+  Slides
+</a>
 
 
 
   
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/post/2020-12-01-r-rmarkdown/" >Hello R Markdown</a>
-    </div>
-
+  
     
-    <a href="/post/2020-12-01-r-rmarkdown/"  class="summary-link">
-      <div class="article-style">
-        R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.
-      </div>
-    </a>
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://youtu.be/xMMp89V6fhY" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+  
+  
     
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://dx.doi.org/10.14288/1.0413120" target="_blank" rel="noopener">
+  Source Document
+</a>
 
 
-<div class="article-metadata">
+
+</p>
 
   
   
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    Dec 1, 2020
-  </span>
-  
-
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="article-reading-time">
-    1 min read
-  </span>
-  
-
-  
-  
-  
-  
-
-  
-  
-  <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/r/">R</a></span>
-  
-
-</div>
-
-      
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
 </div>
 
   
     
 
 
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/post/writing-technical-content/" >Writing technical content in Markdown</a>
-    </div>
-
-    
-    <a href="/post/writing-technical-content/"  class="summary-link">
-      <div class="article-style">
-        Wowchemy is designed to give technical content creators a seamless experience. You can focus on the content and Wowchemy handles the rest.
-Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
-
-
-<div class="article-metadata">
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
   
 
-  
-  <span class="article-date">
-    
-    
-      
-    
-    Jul 12, 2019
-  </span>
-  
-
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="article-reading-time">
-    6 min read
-  </span>
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-      
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-      
-      <a href="/post/writing-technical-content/" >
-        <img src="/post/writing-technical-content/featured_huc72159e0fc0d14b85f60d34436a630f0_266353_150x0_resize_q75_h2_lanczos.webp" height="100" width="150"
-            alt="Writing technical content in Markdown" loading="lazy">
-      </a>
-    
-  </div>
-</div>
-
-  
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/post/jupyter/" >Display Jupyter Notebooks with Academic</a>
-    </div>
-
-    
-    <a href="/post/jupyter/"  class="summary-link">
-      <div class="article-style">
-        Learn how to blog in Academic using Jupyter notebooks
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
-
-
-<div class="article-metadata">
-
-  
-  
-  
-  
-  <div>
+  <span class="article-metadata li-cite-author">
     
 
   <span class="author-highlighted">
-      Alice Bighetti 吳恩達</span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-          Last updated on
-      
-    
-    Sep 5, 2019
+      Saifuddin Syed</span>, <span >
+      Alexandre Bouchard-Côté</span>, <span >
+      George Deligiannidis</span>, <span >
+      Arnaud Doucet</span>
   </span>
+  (2021).
+  <a href="/publication/nrpt/">Non-reversible parallel tempering: a scalable highly parallel MCMC scheme</a>.
+  Journal of the Royal Statistical Society (Series B).
   
+  <p>
+
+
+
+
+
+
+
 
   
-
-  
-  <span class="middot-divider"></span>
-  <span class="article-reading-time">
-    2 min read
-  </span>
+    
   
 
-  
-  
-  
-  
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/1905.02939.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/nrpt/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
 
   
   
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/uploads/poster_nrpt.pdf" target="_blank" rel="noopener">
+  Poster
+</a>
 
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://youtu.be/9gOssrhN3EA" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1111/rssb.12464" target="_blank" rel="noopener">
+  Source Document
+</a>
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/abs/1905.02939" target="_blank" rel="noopener">
+    Arxiv</a>
+
+</p>
+
+  
+  
 </div>
 
-      
-    </div>
-
+  
     
 
-  </div>
-  <div class="ml-3">
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
     
+
+  <span >
+      Vittorio Romaniello</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span class="author-highlighted">
+      Saifuddin Syed</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
+      Trevor Campbell</span>, <span >
+      Alexandre Bouchard-Côté</span>
+  </span>
+  (2021).
+  <a href="/publication/pt_paths/">Parallel tempering on optimized paths</a>.
+  International Conference on Machine Learning.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
     
-      
-      <a href="/post/jupyter/" >
-        <img src="/post/jupyter/featured_hub1daa031c2af6888ff37bd93eb033a1a_71549_150x0_resize_q75_h2_lanczos_3.webp" height="65" width="150"
-            alt="Display Jupyter Notebooks with Academic" loading="lazy">
-      </a>
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/2102.07720.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/pt_paths/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+  
+  
     
-  </div>
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/uploads/poster_paths.pdf" target="_blank" rel="noopener">
+  Poster
+</a>
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/uploads/slides_paths.pdf" target="_blank" rel="noopener">
+  Slides
+</a>
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://icml.cc/virtual/2021/spotlight/8924" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="http://proceedings.mlr.press/v139/syed21a.html" target="_blank" rel="noopener">
+  Source Document
+</a>
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/abs/2102.07720" target="_blank" rel="noopener">
+    Arxiv</a>
+
+</p>
+
+  
+  
 </div>
 
   
@@ -2272,7 +2067,7 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
     
       
         <div class="section-heading col-12 mb-3 text-center">
-          <h1 class="mb-0">Projects</h1>
+          <h1 class="mb-0">Notable Applications</h1>
           
         </div>
       
@@ -2294,66 +2089,15 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
 
 <div class="col-12 ">
 
-  
+  <p>Here are some recent examples of large-scale projects that used non-reversible parallel tempering (NRPT) as the backbone of their inference engine. Please reach out if you would like to use NRPT for your projects and have any questions. If you want to play around with NRPT check out our Julia package 
+
+<a href="https://github.com/Julia-Tempering/Pigeons.jl" target="_blank"> Pigeons.jl</a>
+.</p>
+
 
   
 
-    
-
-    
-    
-    
-    
-      
-      
-        
-      
-    
-
-    <span class="d-none default-project-filter">*</span>
-
-    
-    
-    <div class="project-toolbar">
-      <div class="project-filters">
-        <div class="btn-toolbar d-flex justify-content-center">
-          <div class="btn-group flex-wrap">
-            
-              
-              
-              
-                
-                  
-                
-              
-              <a href="#" data-filter="*" class="btn btn-primary btn-lg active">All</a>
-            
-              
-              
-              
-                
-                  
-                
-              
-              <a href="#" data-filter=".js-id-deep-learning" class="btn btn-primary btn-lg">Deep Learning</a>
-            
-              
-              
-              
-                
-                  
-                
-              
-              <a href="#" data-filter=".js-id-demo" class="btn btn-primary btn-lg">Other</a>
-            
-          </div>
-        </div>
-      </div>
-    </div>
-    
-  
-
-  <div class="isotope projects-container row js-layout-row project-showcase">
+  <div class=" row js-layout-row ">
 
     
     
@@ -2379,564 +2123,9 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
     
       
         
-          <div class="col-12 isotope-item js-id-deep-learning">
+          <div class="col-12 isotope-item ">
         
         
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-<div class="col-lg-12 mb-5 view-showcase">
-  <div class="row align-items-center">
-    <div class="col-12 col-md-6">
-      <div class="section-subheading article-title mb-0 mt-0"><a href="/project/example/" >Example Project</a></div>
-
-      
-      <div class="article-style">
-        An example of using the in-built project page.
-      </div>
-      
-
-      <div class="btn-links">
-        
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  <a class="btn btn-outline-primary btn-page-header" href="/slides/example/" target="_blank">
-    Slides
-  </a>
-  
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header" href="https://twitter.com/georgecushen" target="_blank" rel="noopener">
-    <i class="fab fa-twitter mr-1"></i>Follow</a>
-
-
-      </div>
-
-    </div>
-    <div class="col-12 col-md-6 order-first ">
-      
-
-      
-        
-        <a href="/project/example/" >
-          <img src="/project/example/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_224363_540x0_resize_q75_h2_lanczos.webp" height="304" width="540"
-              alt="Example Project" loading="lazy">
-        </a>
-      
-    </div>
-  </div>
-</div>
-
-      </div>
-    
-      
-        
-          <div class="col-12 isotope-item js-id-demo">
-        
-        
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-<div class="col-lg-12 mb-5 view-showcase">
-  <div class="row align-items-center">
-    <div class="col-12 col-md-6">
-      <div class="section-subheading article-title mb-0 mt-0"><a href="https://example.org" >External Project</a></div>
-
-      
-      <div class="article-style">
-        An example of linking directly to an external project website using <code>external_link</code>.
-      </div>
-      
-
-      <div class="btn-links">
-        
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-
-    </div>
-    <div class="col-12 col-md-6 order-first ">
-      
-
-      
-        
-        <a href="https://example.org" >
-          <img src="/project/external-project/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_329522_540x0_resize_q75_h2_lanczos.webp" height="304" width="540"
-              alt="External Project" loading="lazy">
-        </a>
-      
-    </div>
-  </div>
-</div>
-
-      </div>
-    
-
-  </div>
-</div>
-
-
-  
-    </div>
-  
-
-  </div>
-</section>
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section id="gallery" class="home-section wg-markdown  "  >
- <div class="home-section-bg " >
-   
- </div>
-  <div class="container">
-
-  
-    <div class="row  justify-content-center">
-    
-      
-        <div class="section-heading col-12 mb-3 text-center">
-          <h1 class="mb-0">Gallery</h1>
-          
-        </div>
-      
-    
-  
-
-    
-
-
-
-
-
-
-
-
-
-  <div class="col-12">
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="gallery-grid">
-
-  
-  
-  
-    
-    
-    
-    
-    
-  
-  
-  <div class="gallery-item gallery-item--medium">
-    <a data-fancybox="gallery-demo" href="/media/albums/demo/chris-montgomery-smgTvepind4-unsplash.jpg" >
-      <img src="/media/albums/demo/chris-montgomery-smgTvepind4-unsplash_hu68f1f4ae312ace90ad56e06a7b965ca9_245831_750x750_fit_q75_h2_lanczos.webp" loading="lazy" alt="chris-montgomery-smgTvepind4-unsplash.jpg" width="750" height="563">
-    </a>
-  </div>
-  
-    
-    
-    
-    
-    
-  
-  
-    
-  
-  <div class="gallery-item gallery-item--full">
-    <a data-fancybox="gallery-demo" href="/media/albums/demo/dan-gold-4_jhDO54BYg-unsplash-f.jpg" >
-      <img src="/media/albums/demo/dan-gold-4_jhDO54BYg-unsplash-f_hubb57eb7d78eb9d6871b4f982a9cfe98b_447788_750x750_fit_q75_h2_lanczos.webp" loading="lazy" alt="dan-gold-4_jhDO54BYg-unsplash-f.jpg" width="750" height="500">
-    </a>
-  </div>
-  
-    
-    
-    
-    
-    
-  
-  
-  <div class="gallery-item gallery-item--medium">
-    <a data-fancybox="gallery-demo" href="/media/albums/demo/fotografierende-333oj7zFsdg-unsplash.jpg" >
-      <img src="/media/albums/demo/fotografierende-333oj7zFsdg-unsplash_hu596cc7cd654d6dbe93ef5a0a61cb3766_116195_750x750_fit_q75_h2_lanczos.webp" loading="lazy" alt="fotografierende-333oj7zFsdg-unsplash.jpg" width="750" height="500">
-    </a>
-  </div>
-  
-    
-    
-    
-    
-    
-  
-  
-  <div class="gallery-item gallery-item--medium">
-    <a data-fancybox="gallery-demo" href="/media/albums/demo/glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg" >
-      <img src="/media/albums/demo/glenn-carstens-peters-npxXWgQ33ZQ-unsplash_hufe7234d721dea2d4376339533ed0a7b7_115372_750x750_fit_q75_h2_lanczos.webp" loading="lazy" alt="glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg" width="750" height="499">
-    </a>
-  </div>
-  
-    
-    
-    
-    
-    
-  
-  
-  <div class="gallery-item gallery-item--medium">
-    <a data-fancybox="gallery-demo" href="/media/albums/demo/joseph-gonzalez-zcUgjyqEwe8-unsplash.jpg" >
-      <img src="/media/albums/demo/joseph-gonzalez-zcUgjyqEwe8-unsplash_hu0da53bf391414dd35b860edb2d47ae67_331376_750x750_fit_q75_h2_lanczos.webp" loading="lazy" alt="joseph-gonzalez-zcUgjyqEwe8-unsplash.jpg" width="580" height="750">
-    </a>
-  </div>
-  
-    
-    
-    
-    
-    
-  
-  
-    
-  
-  <div class="gallery-item gallery-item--large">
-    <a data-fancybox="gallery-demo" href="/media/albums/demo/matthew-osborn-wMRIcT86SWU-unsplash-l.jpg" >
-      <img src="/media/albums/demo/matthew-osborn-wMRIcT86SWU-unsplash-l_hu5617109cd94ff53d835059e892c0ab5d_398024_750x750_fit_q75_h2_lanczos.webp" loading="lazy" alt="matthew-osborn-wMRIcT86SWU-unsplash-l.jpg" width="750" height="500">
-    </a>
-  </div>
-  
-    
-    
-    
-    
-    
-  
-  
-  <div class="gallery-item gallery-item--medium">
-    <a data-fancybox="gallery-demo" href="/media/albums/demo/priscilla-du-preez-K8XYGbw4Ahg-unsplash.jpg" >
-      <img src="/media/albums/demo/priscilla-du-preez-K8XYGbw4Ahg-unsplash_huef8cdcc68a376950d1b1bcb089263869_96811_750x750_fit_q75_h2_lanczos.webp" loading="lazy" alt="priscilla-du-preez-K8XYGbw4Ahg-unsplash.jpg" width="750" height="500">
-    </a>
-  </div>
-  
-
-</div>
-
-
-  </div>
-
-
-
-  
-    </div>
-  
-
-  </div>
-</section>
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section id="talks" class="home-section wg-collection  "  >
- <div class="home-section-bg " >
-   
- </div>
-  <div class="container">
-
-  
-    <div class="row  ">
-    
-      
-        <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
-          <h1 class="mb-0">Recent &amp; Upcoming Talks</h1>
-          
-        </div>
-      
-    
-  
-
-    
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-<div class="col-12 col-lg-8">
-
-  
-
-  
-    
 
 
 
@@ -2959,29 +2148,19 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/talk/example-talk/" >Example Talk</a>
+      <a href="/project/georgia/" >Discover gerrymandering in Georgia&#39;s 2021 congressional districting plan</a>
     </div>
 
     
-    <a href="/talk/example-talk/"  class="summary-link">
+    <a href="/project/georgia/"  class="summary-link">
       <div class="article-style">
-        An example talk using Wowchemy&rsquo;s Markdown slides feature.
+        Georgia Tech used NRPT to statistically identify gerrymandering in Georgia&rsquo;s 2021 congressional districting plan.
       </div>
     </a>
     
 
     <div class="stream-meta article-metadata">
 
-      
-      <div>
-        <span>
-          Jun 1, 2030 1:00 PM &mdash; 3:00 PM
-        </span>
-        
-        <span class="middot-divider"></span>
-        <span>Wowchemy HQ</span>
-        
-      </div>
       
 
       
@@ -3008,20 +2187,10 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
 
 
 
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/example/">
-    Project
-  </a>
-  
 
 
 
 
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/slides/example/" target="_blank">
-    Slides
-  </a>
-  
 
 
 
@@ -3038,8 +2207,8 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
   
     
   
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://twitter.com/georgecushen" target="_blank" rel="noopener">
-    <i class="fab fa-twitter mr-1"></i>Follow</a>
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://dl.acm.org/doi/10.1145/3551624.3555300" target="_blank" rel="noopener">
+    EAAMO Paper</a>
 
 
     </div>
@@ -3050,988 +2219,628 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
     
     
       
-      <a href="/talk/example-talk/" >
-        <img src="/talk/example-talk/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_620088_150x0_resize_q75_h2_lanczos.webp" height="107" width="150"
-            alt="Example Talk" loading="lazy">
+      <a href="/project/georgia/" >
+        <img src="/project/georgia/featured_hubdd59402e99646ddc63b5d205d1bbbce_523685_150x0_resize_q75_h2_lanczos.webp" height="105" width="150"
+            alt="Discover gerrymandering in Georgia&#39;s 2021 congressional districting plan" loading="lazy">
       </a>
     
   </div>
 </div>
 
-  
+      </div>
+    
+      
+        
+          <div class="col-12 isotope-item ">
+        
+        
+
+
+
+
+
+
 
   
-  
-  
-
-</div>
 
 
+
+
+
+
+
   
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/project/eht_sagittariusa/" >Generating first image of Sagittarius A*</a>
     </div>
-  
-
-  </div>
-</section>
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section id="featured" class="home-section wg-collection  "  >
- <div class="home-section-bg " >
-   
- </div>
-  <div class="container">
-
-  
-    <div class="row  ">
-    
-      
-        <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
-          <h1 class="mb-0">Featured Publications</h1>
-          
-        </div>
-      
-    
-  
 
     
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-  
-  
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-<div class="col-12 col-lg-8">
-
-  
-
-  
-    
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="card-simple view-card">
-
-  
-    
-
-
-<div class="article-metadata">
-
-  
-  
-  
-  
-  <div>
-    
-
-  <span class="author-highlighted">
-      Alice Bighetti 吳恩達</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
-      Robert Ford</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    July, 2013
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-      In <em>ICW</em>
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-    
-    <a href="/publication/conference-paper/" >
-      <div class="img-hover-zoom">
-        <img src="/publication/conference-paper/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_312700_808x455_fill_q75_h2_lanczos_smart1.webp" height="455" width="808"
-            class="article-banner" alt="An example conference paper" loading="lazy">
+    <a href="/project/eht_sagittariusa/"  class="summary-link">
+      <div class="article-style">
+        The Event Horizon Telescope collaboration used NRPT to image Sagittarius A*, the supermassive black hole at the center of the Milky Way.
       </div>
     </a>
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/conference-paper/" >An example conference paper</a>
-  </div>
-
-  
-  <a href="/publication/conference-paper/"  class="summary-link">
-    <div class="article-style">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.</p>
-    </div>
-  </a>
-  
-
-  
-  <div class="btn-links">
     
 
+    <div class="stream-meta article-metadata">
 
-
-
-
-
-
-
-  
-
-
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="/publication/conference-paper/conference-paper.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/conference-paper/cite.bib">
-  Cite
-</a>
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">
-  Code
-</a>
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">
-  Dataset
-</a>
-
-
-
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/example/">
-    Project
-  </a>
-  
-
-
-
-
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/slides/example/" target="_blank">
-    Slides
-  </a>
-  
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://youtube.com" target="_blank" rel="noopener">
-  Video
-</a>
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">
-  Source Document
-</a>
-
-
-
-
-  </div>
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-</div>
-
-
-  
-    </div>
-  
-
-  </div>
-</section>
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section id="publications" class="home-section wg-collection  "  >
- <div class="home-section-bg " >
-   
- </div>
-  <div class="container">
-
-  
-    <div class="row  ">
-    
       
-        <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
-          <h1 class="mb-0">Recent Publications</h1>
-          
-        </div>
-      
-    
-  
 
-    
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-  
-  
-  
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-<div class="col-12 col-lg-8">
-
-  <div class="alert alert-note">
-  <div>
-    Quickly discover relevant content by <a href="./publication/">filtering publications</a>.
-  </div>
-</div>
-
-
-  
-    
-
-
-<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span class="article-metadata li-cite-author">
-    
-
-  <span class="author-highlighted">
-      Alice Bighetti 吳恩達</span>
-  </span>
-  (2019).
-  <a href="/publication/preprint/">An example preprint / working paper</a>.
-  
-  <p>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="http://arxiv.org/pdf/1512.04133v1" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">
-  Code
-</a>
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="/#" target="_blank" rel="noopener">
-  Dataset
-</a>
-
-
-
-  
-    
-  
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="/#" target="_blank" rel="noopener">
-  Poster
-</a>
-
-
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/slides/example/" target="_blank">
-    Slides
-  </a>
-  
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="/#" target="_blank" rel="noopener">
-  Video
-</a>
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="/#" target="_blank" rel="noopener">
-  Source Document
-</a>
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="http://example.org" target="_blank" rel="noopener">
-    Custom Link</a>
-
-</p>
-
-  
-  
-</div>
-
-  
-    
-
-
-<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span class="article-metadata li-cite-author">
-    
-
-  <span class="author-highlighted">
-      Alice Bighetti 吳恩達</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
-      Robert Ford</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>
-  </span>
-  (2015).
-  <a href="/publication/journal-article/">An example journal article</a>.
-  <em>Journal of Source Themes, 1</em>(1).
-  
-  <p>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="http://arxiv.org/pdf/1512.04133v1" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/journal-article/cite.bib">
-  Cite
-</a>
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">
-  Code
-</a>
-
-
-
-
-
-
-
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/slides/example/" target="_blank">
-    Slides
-  </a>
-  
-
-
-
-
-
-</p>
-
-  
-  
-</div>
-
-  
-    
-
-
-<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span class="article-metadata li-cite-author">
-    
-
-  <span class="author-highlighted">
-      Alice Bighetti 吳恩達</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
-      Robert Ford</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>
-  </span>
-  (2013).
-  <a href="/publication/conference-paper/">An example conference paper</a>.
-  In <em>ICW</em>.
-  
-  <p>
-
-
-
-
-
-
-
-
-  
-
-
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="/publication/conference-paper/conference-paper.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/conference-paper/cite.bib">
-  Cite
-</a>
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">
-  Code
-</a>
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">
-  Dataset
-</a>
-
-
-
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/example/">
-    Project
-  </a>
-  
-
-
-
-
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/slides/example/" target="_blank">
-    Slides
-  </a>
-  
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://youtube.com" target="_blank" rel="noopener">
-  Video
-</a>
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">
-  Source Document
-</a>
-
-
-
-</p>
-
-  
-  
-</div>
-
-  
-
-  
-  
-  
-
-</div>
-
-
-  
-    </div>
-  
-
-  </div>
-</section>
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section id="tags" class="home-section wg-tag-cloud  "  >
- <div class="home-section-bg " >
-   
- </div>
-  <div class="container">
-
-  
-    <div class="row  ">
-    
-      
-        <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
-          <h1 class="mb-0">Popular Topics</h1>
-          
-        </div>
-      
-    
-  
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-<div class="col-12 col-lg-8">
-  
-
-  
-
-    
-    
-    
-    
-    
-    
-
-    <div class="tag-cloud">
-      
-        
-        
-        
-        <a href="/tag/academic/" style="font-size:0.7rem">Academic</a>
-      
-        
-        
-        
-        <a href="/tag/deep-learning/" style="font-size:0.7rem">Deep Learning</a>
-      
-        
-        
-        
-        <a href="/tag/demo/" style="font-size:0.7rem">Demo</a>
-      
-        
-        
-        
-        <a href="/tag/plot/" style="font-size:0.7rem">plot</a>
-      
-        
-        
-        
-        <a href="/tag/r-markdown/" style="font-size:0.7rem">R Markdown</a>
-      
-        
-        
-        
-        <a href="/tag/regression/" style="font-size:0.7rem">regression</a>
-      
-        
-        
-        
-        <a href="/tag/source-themes/" style="font-size:1.5202086796428946rem">Source Themes</a>
-      
-        
-        
-        
-        <a href="/tag/%E5%BC%80%E6%BA%90/" style="font-size:0.7rem">开源</a>
       
     </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
   
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://iopscience.iop.org/article/10.3847/2041-8213/ac6736" target="_blank" rel="noopener">
+    ApJL Paper</a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.bbc.co.uk/news/science-environment-61412463" target="_blank" rel="noopener">
+    Article</a>
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+      
+      <a href="/project/eht_sagittariusa/" >
+        <img src="/project/eht_sagittariusa/featured_hufa60182830599a128a9ef69641e94ffa_661748_150x0_resize_q75_h2_lanczos.webp" height="150" width="150"
+            alt="Generating first image of Sagittarius A*" loading="lazy">
+      </a>
+    
+  </div>
+</div>
+
+      </div>
+    
+      
+        
+          <div class="col-12 isotope-item ">
+        
+        
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/project/cancer_evolution/" >Modeling evolution of single-cell cancer genomes</a>
+    </div>
+
+    
+    <a href="/project/cancer_evolution/"  class="summary-link">
+      <div class="article-style">
+        NRPT was used to study the fitness of cancer populations by modelling the evolution of single-cell cancer genomes.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.nature.com/articles/s41586-021-03648-3" target="_blank" rel="noopener">
+    Nature Paper</a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.jstatsoft.org/article/view/v103i11" target="_blank" rel="noopener">
+    Blang Paper</a>
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+      
+      <a href="/project/cancer_evolution/" >
+        <img src="/project/cancer_evolution/featured_hu34175b0ff5005fb66a2d26b1edc7da2c_658989_150x0_resize_q75_h2_lanczos.webp" height="170" width="150"
+            alt="Modeling evolution of single-cell cancer genomes" loading="lazy">
+      </a>
+    
+  </div>
+</div>
+
+      </div>
+    
+      
+        
+          <div class="col-12 isotope-item ">
+        
+        
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/project/fusion/" >Modelling plasma dynamics in nuclear fusion reactor</a>
+    </div>
+
+    
+    <a href="/project/fusion/"  class="summary-link">
+      <div class="article-style">
+        TAE technologies in collaboration with Google research and TensorFlow probability used NRPT to infer plasma dynamics inside in the world largest field-reversed configuration (FCR) nuclear fusion reactor.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://iopscience.iop.org/article/10.1088/1741-4326/ac2521/meta?casa_token=2AyFziozyTYAAAAA:pCIXhaehOqXeafyO75ej83fbkPAwQjC9sZCrRWOk-phhHat2IjtVHLo04yxog3yUBFDi3aCc" target="_blank" rel="noopener">
+    Nuclear Fusion Paper</a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/abs/2103.07515" target="_blank" rel="noopener">
+    Methodology Paper</a>
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+      
+      <a href="/project/fusion/" >
+        <img src="/project/fusion/featured_hu005fa84357e604ffaccc59fec1b4413b_784631_150x0_resize_q75_h2_lanczos.webp" height="85" width="150"
+            alt="Modelling plasma dynamics in nuclear fusion reactor" loading="lazy">
+      </a>
+    
+  </div>
+</div>
+
+      </div>
+    
+      
+        
+          <div class="col-12 isotope-item ">
+        
+        
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/project/malaria/" >Modelling plasma dynamics in nuclear fusion reactor</a>
+    </div>
+
+    
+    <a href="/project/malaria/"  class="summary-link">
+      <div class="article-style">
+        TAE technologies in collaboration with Google research and TensorFlow probability used NRPT to infer plasma dynamics inside in the world largest field-reversed configuration (FCR) nuclear fusion reactor.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://iopscience.iop.org/article/10.1088/1741-4326/ac2521/meta?casa_token=2AyFziozyTYAAAAA:pCIXhaehOqXeafyO75ej83fbkPAwQjC9sZCrRWOk-phhHat2IjtVHLo04yxog3yUBFDi3aCc" target="_blank" rel="noopener">
+    Nuclear Fusion Paper</a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/abs/2103.07515" target="_blank" rel="noopener">
+    Methodology Paper</a>
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+      
+      <a href="/project/malaria/" >
+        <img src="/project/malaria/featured_hu0f1e07a5fd574e1c91881fc99871f04d_144535_150x0_resize_q75_h2_lanczos_3.webp" height="148" width="150"
+            alt="Modelling plasma dynamics in nuclear fusion reactor" loading="lazy">
+      </a>
+    
+  </div>
+</div>
+
+      </div>
+    
+      
+        
+          <div class="col-12 isotope-item ">
+        
+        
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/project/eht_polarization/" >Discovering magnetic polarization in M87 supermassive black hole</a>
+    </div>
+
+    
+    <a href="/project/eht_polarization/"  class="summary-link">
+      <div class="article-style">
+        NRPT was used by the Event Horizon Telescope collaboration to discover magnetic polarization in M87&rsquo;s supermassive black hole.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://iopscience.iop.org/article/10.3847/2041-8213/abe71d" target="_blank" rel="noopener">
+    ApJL Paper</a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.npr.org/2021/03/24/980896706/stunning-new-image-of-black-hole-reveals-surrounding-magnetic-fields" target="_blank" rel="noopener">
+    Article</a>
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+      
+      <a href="/project/eht_polarization/" >
+        <img src="/project/eht_polarization/featured_hu4619a2c2a9a0a5da5a707d3168c904a0_37996_150x0_resize_q75_h2_lanczos.webp" height="151" width="150"
+            alt="Discovering magnetic polarization in M87 supermassive black hole" loading="lazy">
+      </a>
+    
+  </div>
+</div>
+
+      </div>
+    
+
+  </div>
 </div>
 
 
@@ -4153,48 +2962,19 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
 
   
 
-    
-    
-      
-    
-
-    <div class="mb-3">
-      <form name="contact" method="POST" netlify netlify-honeypot="_gotcha"  >
-        <div class="form-group form-inline">
-          <label class="sr-only" for="inputName">Name</label>
-          <input type="text" name="name" class="form-control w-100" id="inputName" placeholder="Name" required>
-        </div>
-        <div class="form-group form-inline">
-          <label class="sr-only" for="inputEmail">Email</label>
-          <input type="email" name="email" class="form-control w-100" id="inputEmail" placeholder="Email" required>
-        </div>
-        <div class="form-group">
-          <label class="sr-only" for="inputMessage">Message</label>
-          <textarea name="message" class="form-control" id="inputMessage" rows="5" placeholder="Message" required></textarea>
-        </div>
-        
-        <div class="d-none">
-          <label>Do not fill this field unless you are a bot: <input name="_gotcha"></label>
-        </div>
-        
-        <button type="submit" class="btn btn-primary px-3 py-2 w-100">Send</button>
-      </form>
-    </div>
-  
-
   <ul class="fa-ul">
 
     
     <li>
       <i class="fa-li fas fa-envelope fa-2x" aria-hidden="true"></i>
-      <span id="person-email"><a href="mailto:saifuddin.syed@stats.ox.ac.uk">saifuddin.syed@stats.ox.ac.uk</a></span>
+      <span id="person-email">saifuddin.syed@stats.ox.ac.uk</span>
     </li>
     
 
     
     <li>
       <i class="fa-li fas fa-phone fa-2x" aria-hidden="true"></i>
-      <span id="person-telephone"><a href="tel:888%20888%2088%2088">888 888 88 88</a></span>
+      <span id="person-telephone">&#43;44 7467 304999</span>
     </li>
     
 
@@ -4203,64 +2983,22 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
       
       <li>
         <i class="fa-li fas fa-map-marker fa-2x" aria-hidden="true"></i>
-        <span id="person-address">450 Serra Mall, Stanford, CA 94305</span>
+        <span id="person-address">24-29 St Giles, Oxford, CA OX1 3LB</span>
       </li>
     
 
     
     <li>
       <i class="fa-li fas fa-compass fa-2x" aria-hidden="true"></i>
-      <span>Enter Building 1 and take the stairs to Office 200 on Floor 2</span>
+      <span>Office 1.18</span>
     </li>
     
 
     
-    <li>
-      <i class="fa-li fas fa-clock fa-2x" aria-hidden="true"></i>
-      <span>Monday 10:00 to 13:00<br>Wednesday 09:00 to 10:00</span>
-    </li>
+
     
 
     
-    <li>
-      <i class="fa-li fas fa-calendar-check fa-2x" aria-hidden="true"></i>
-      <a href="https://calendly.com" target="_blank" rel="noopener">Book an appointment</a>
-    </li>
-    
-
-    
-    
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <i class="fa-li fab fa-twitter fa-2x" aria-hidden="true"></i>
-      <a href="https://twitter.com/Twitter" target="_blank" rel="noopener">DM Me</a>
-    </li>
-    
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <i class="fa-li fas fa-video fa-2x" aria-hidden="true"></i>
-      <a href="https://zoom.com" target="_blank" rel="noopener">Zoom Me</a>
-    </li>
     
 
   </ul>
@@ -4330,37 +3068,10 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
 
 
   
-  
-  
-
-  
-  
-    
-  
-  
-    
-  
-
-  
-
-  
   <p class="powered-by copyright-license-text">
-    © 2022 Me. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+    © 2023 Saifuddin Syed.
   </p>
   
-
-  <p class="powered-by footer-license-icons">
-    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
-      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
-      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
-      
-        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
-      
-      
-        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
-      
-    </a>
-  </p>
 
 
 
