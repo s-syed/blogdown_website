@@ -2,7 +2,7 @@
 date: "2021-06-23T00:00:00Z"
 external_link: ""
 image:
-  caption: "Salehi et al (2021)"
+  caption: "Langmore et al (2021)"
   focal_point: ""
 links: 
 - icon: 
