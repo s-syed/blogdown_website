@@ -2,7 +2,7 @@
 date: "2021-03-24T00:00:00Z"
 external_link: ""
 image:
-  caption: "Event Horization Telescope Collaboration: Magetic polarization in photograph of supermassive black hole in M87 (2021)"
+  caption: "Event Horizon Telescope Collaboration: Magnetic polarization in photograph of supermassive black hole in M87 (2021)"
   focal_point: ""
 links:
 - icon: 
@@ -16,7 +16,7 @@ links:
 # slides: example
 summary: "NRPT was used by the Event Horizon Telescope collaboration to discover magnetic polarization in M87's supermassive black hole."
 tags: 
-title: "Discovering magnetic polarization in M87 supermassive black hole"
+title: "Discover magnetic polarization in M87 supermassive black hole"
 url_code: ""
 url_pdf: ""
 url_slides: ""

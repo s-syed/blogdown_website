@@ -17,7 +17,7 @@ links:
   
 summary: "NRPT was used to study the fitness of cancer populations by modelling the evolution of single-cell cancer genomes."
 tags: 
-title: "Modeling evolution of single-cell cancer genomes"
+title: "Model evolution of single-cell cancer genomes"
 url_code: ""
 url_pdf: ""
 url_slides: ""

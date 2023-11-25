@@ -19,7 +19,7 @@ summary: "TAE technologies in collaboration with Google research and TensorFlow 
 
  
 tags: 
-title: "Modelling plasma dynamics in nuclear fusion reactor"
+title: "Infer plasma dynamics inside nuclear fusion reactor"
 url_code: ""
 url_pdf: ""
 url_slides: ""
